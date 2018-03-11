@@ -37,7 +37,7 @@ apis:
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/aws-workdocs/action-getdocumentpath-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/aws-workdocs/action-getdocumentversion-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
