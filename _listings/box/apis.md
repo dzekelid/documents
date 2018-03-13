@@ -33,7 +33,7 @@ apis:
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/box/files-file-id-metadata-scope-template-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/box/files-file-id-metadata-scope-template-get.md
 x-common:
 - type: x-base
   url: https://api.box.com/
