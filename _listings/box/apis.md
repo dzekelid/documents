@@ -33,7 +33,7 @@ apis:
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/box/invites-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
