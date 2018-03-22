@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=InitiateDocumentVersionUpload&k=1:
+  /?Action=InitiateDocumentVersionUpload:
     get:
       summary: ' Initiate Document Version Upload '
       description: Creates a new document object and version object
