@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDocumentVersion&k=1:
+  /?Action=GetDocumentVersion:
     get:
       summary: ' Get Document Version '
       description: Retrieves version metadata for the specified document
