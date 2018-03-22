@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDocumentPath&k=1:
+  /?Action=GetDocumentPath:
     get:
       summary: ' Get Document Path '
       description: Retrieves the path information (the hierarchy from the root folder)
