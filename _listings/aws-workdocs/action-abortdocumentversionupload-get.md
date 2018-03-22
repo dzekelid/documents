@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AbortDocumentVersionUpload&k=1:
+  /?Action=AbortDocumentVersionUpload:
     get:
       summary: ' Abort Document Version Upload '
       description: Aborts the upload of the specified document version that was previously
