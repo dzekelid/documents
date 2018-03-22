@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDocument&k=1:
+  /?Action=GetDocument:
     get:
       summary: ' Get Document '
       description: Retrieves the specified document object
