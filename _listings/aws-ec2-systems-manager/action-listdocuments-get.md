@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListDocuments&k=1:
+  /?Action=ListDocuments:
     get:
       summary: ' List Documents '
       description: Describes one or more of your SSM documents
