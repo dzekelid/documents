@@ -20,9 +20,9 @@ tags:
 - Files
 - Collaboration
 - Backup
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/box/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Box
@@ -33,7 +33,7 @@ apis:
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/box/webhooks-webhook-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/files-content-options.md
 x-common:
 - type: x-base
   url: https://api.box.com/
