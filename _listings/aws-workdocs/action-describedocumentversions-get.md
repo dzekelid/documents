@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDocumentVersions&k=1:
+  /?Action=DescribeDocumentVersions:
     get:
       summary: ' Describe Document Versions '
       description: Retrieves the document versions for the specified document
