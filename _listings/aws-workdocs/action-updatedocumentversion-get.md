@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateDocumentVersion&k=1:
+  /?Action=UpdateDocumentVersion:
     get:
       summary: ' Update Document Version '
       description: Changes the status of the document version to ACTIVE
