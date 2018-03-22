@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDocument&k=1:
+  /?Action=DeleteDocument:
     get:
       summary: ' Delete Document '
       description: Permanently deletes the specified document and its associated metadata
