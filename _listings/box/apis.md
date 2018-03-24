@@ -33,7 +33,7 @@ apis:
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/enterprises-enterprise-id-device-pinners-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/device-pinners-id-get.md
 x-common:
 - type: x-base
   url: https://api.box.com/
