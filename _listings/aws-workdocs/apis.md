@@ -22,8 +22,8 @@ tags:
 - Stack Network
 - Documents
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -37,7 +37,7 @@ apis:
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-updatedocumentversion-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-abortdocumentversionupload-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
