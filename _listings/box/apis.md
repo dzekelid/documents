@@ -34,22 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-webhook-id-delete.md
-- name: Box Get Trashed Items
-  description: Retrieves the files and/or folders that have been moved to the trash.
-    Any attribute in the full files or folders objects can be passed in with the fields
-    parameter to get specific attributes, and only those specific attributes back;
-    otherwise, the mini format is returned for each item by default. Multiple attributes
-    can be passed in separated by commas e.g. fields=name,created_at. Paginated results
-    can be retrieved using the limit and offset parameters.
+- name: Box Get Watermark on File
+  description: Used to retrieve the watermark for a corresponding Box file.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-trash-items-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/files-file-id-watermark-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-trash-items-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/files-file-id-watermark-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
