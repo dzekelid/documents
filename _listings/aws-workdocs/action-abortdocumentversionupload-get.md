@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Abort Document Version Upload
   version: 1.0.0
+  description: Aborts the upload of the specified document version that was previously
+    initiated by.
 schemes:
 - http
 produces:
