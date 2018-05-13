@@ -69,15 +69,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-delete-postman.md
-- name: Box Update Membership
-  description: Used to update a group membership.
+- name: Box Delete Membership
+  description: Deletes a specific group membership.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/group-memberships-group-membership-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/group-memberships-group-membership-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/group-memberships-group-membership-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
