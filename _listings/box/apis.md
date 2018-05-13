@@ -34,16 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-webhook-id-delete.md
-- name: Box Create Folder
-  description: Used to create a new empty folder. The new folder will be created inside
-    of the specified parent folder
+- name: Box Get Folder's Info
+  description: "Retrieves the full metadata about a folder, including information
+    about when it was last updated as well as the files and folders contained in it.
+    The root folder of a Box account is always represented by the id \u201C0\u201D."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
