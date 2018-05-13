@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Get Document Path
   version: 1.0.0
+  description: Retrieves the path information (the hierarchy from the root folder)
+    for the requested document.
 schemes:
 - http
 produces:
