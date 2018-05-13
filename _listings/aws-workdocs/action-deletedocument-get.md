@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Delete Document
   version: 1.0.0
+  description: Permanently deletes the specified document and its associated metadata.
 schemes:
 - http
 produces:
