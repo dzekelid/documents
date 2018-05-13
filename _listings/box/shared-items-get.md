@@ -1,11 +1,16 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Shared Items
+  description: "Shared items are any files or folders that are represented by a shared
+    link. Shared items are different from other API resources in that a shared resource
+    doesn\u2019t necessarily have to be in the account of the user accessing it. The
+    actual shared link itself is used along with a normal access token.\nUsed to retrieve
+    the metadata about a shared item when only given a shared link. Because of varying
+    permission for shared links, a password may be required to retrieve the shared
+    item. Once the item has been retrieved, you can make API requests against the
+    actual resource /files/{id} or /folders/{id} as long as the shared link and optional
+    password are in the header."
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
