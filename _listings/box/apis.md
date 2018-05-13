@@ -66,16 +66,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get-postman.md
-- name: Box Update Existing Legal Hold Policy
-  description: Update existing Legal Hold Policy. Only name and description can be
-    modified.
+- name: Box Get Legal Hold Policy
+  description: Get details of a single Legal Hold Policy
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
