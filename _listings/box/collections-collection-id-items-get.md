@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Get Collection Items
+  description: "Retrieves the files and/or folders contained within this collection.
+    Collection item lists behave a lot like getting a folder\u2019s items.\nPaginated
+    results can be retrieved using the limit and offset parameters.\nSub-object fields
+    can be requested via the ?fields parameter"
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
