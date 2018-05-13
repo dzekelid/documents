@@ -1,11 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Create New Legal Hold Policy
+  description: Create a new Legal Hold Policy. Optional date filter may be passed.
+    If Policy has a date filter, any Custodian assignments will apply only to file
+    versions created or uploaded inside of the date range.
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
