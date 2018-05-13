@@ -1,11 +1,28 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Update Folder, Create Shared Link, Create or Delete
+  description: "Used to update information about the folder. To move a folder, update
+    the ID of its parent. To enable an email address that can be used to upload files
+    to this folder, update the folder_upload_email attribute. An optional If-Match
+    header can be included to ensure that client only updates the folder if it knows
+    about the latest version.\n\nUsed to create a shared link for this particular
+    folder. Please see here for more information on the permissions available for
+    shared links. In order to get default shared link status, set it to an empty access
+    level, i.e. {\"shared_link\": {}}. In order to disable a shared link, send this
+    same type of PUT request with the value of shared_link set to null, i.e. {\"shared_link\":
+    null}\n\nTo add or remove an item from a collection, you do a PUT on that item
+    and change the list of collections it belongs to. Philosophically, this is similar
+    to the way \u201Cmove\u201D operations work on files and folders: you do a PUT
+    on the item and change its parent. It\u2019s the same idea with collections, except
+    you\u2019re changing which collection(s) the item belongs to instead of the folder
+    it belongs to. Currently the only collection available is the favorites collection,
+    and you\u2019ll need to know it\u2019s ID for the user that is making the API
+    call, since every user has a different favorites collection_id.\nThe Add/Remove
+    API handling will check all ids passed in before performing any add/removal operations.
+    If any collection ids are malformed or do not exist in the user\u2019s account,
+    the API call will throw a 400. Only if all of the collection ids are valid will
+    the adds and removals be carried out."
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
