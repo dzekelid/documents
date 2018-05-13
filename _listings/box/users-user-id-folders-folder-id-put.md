@@ -1,11 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Move User's Folder
+  description: "Moves all of the owned content from within one user\u2019s folder
+    into a new folder in another user\u2019s account. You can move folders across
+    users as long as the you have administrative permissions and the \u2018source\u2019
+    user owns the folders. To move everything from the root folder, use \u201C0\u201D
+    which always represents the root folder of a Box account."
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
