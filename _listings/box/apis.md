@@ -45,30 +45,29 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Get Collaboration
-  description: "Used to get information about a single collaboration. All collaborations
-    for a single folder can be retrieved through GET /folders/{id}/collaborations.
-    A complete list of the user\u2019s pending collaborations can also be retrieved."
+- name: Box Create User
+  description: Used to provision a new user in an enterprise. This method only works
+    for enterprise admins.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get-postman.md
-- name: Box Delete Email Alias
-  description: Removes an email alias from a user.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
+- name: Box Invite User
+  description: Invites an existing user to join an Enterprise. The existing user can
+    not be part of another Enterprise and must already have a Box account. Once invited,
+    the user will receive an email and prompt to accept the invitation within the
+    Box web application. This method requires the "Manage An Enterprise" scope for
+    the enterprise, which can be enabled within your developer console.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/invites-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
