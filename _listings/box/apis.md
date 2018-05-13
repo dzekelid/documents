@@ -69,18 +69,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-delete-postman.md
-- name: Box Get Enterprise Device Pins
-  description: Gets all the device pins within a given enterprise. Must be an enterprise
-    admin with the manage enterprise scope to make this call.
+- name: Box Get Device Pin
+  description: Gets information about an individual device pin.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/enterprises-enterprise-id-device-pinners-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/device-pinners-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/enterprises-enterprise-id-device-pinners-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/device-pinners-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
