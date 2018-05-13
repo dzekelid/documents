@@ -45,34 +45,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Long polling
-  description: "To get real-time notification of activity in a Box account, use the
-    long poll feature of the /events API. To do so, first call the /events API with
-    an OPTIONS call to retrieve the long poll URL to use. Next, make a GET request
-    to the provided URL to begin listening for events. If an event occurs within an
-    account you are monitoring, you will receive a response with the value new_change.
-    It\u2019s important to note that this response will not come with any other details,
-    but should serve as a prompt to take further action such as calling the /events
-    endpoint with your last known stream_position. After sending this response, the
-    server will close the connection and you will need to repeat the long poll process
-    to begin listening for events again.\nIf no events occur for a period of time
-    after you make the GET request to the long poll URL, you will receive a response
-    with the value reconnect. When you receive this response, you\u2019ll make another
-    OPTIONS call to the /events endpoint and repeat the long poll process.\nIf you
-    receive no events in retry_timeout seconds, you should make another GET request
-    to the real time server (i.e. URL in the response). This might be necessary in
-    case you do not receive the reconnect message in the face of network errors.\nIf
-    you receive max_retries error when making GET requests to the real time server,
-    you should make another OPTIONS request."
+- name: Box Create User
+  description: Used to provision a new user in an enterprise. This method only works
+    for enterprise admins.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/events-options.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/events-options-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
