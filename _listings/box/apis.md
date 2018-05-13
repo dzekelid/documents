@@ -45,18 +45,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Update Metadata on Folder
-  description: Used to update the template instance. Updates can be either add, replace,
-    remove , or test. The template instance can only be updated if the template instance
-    already exists. When editing metadata, only values that adhere to the metadata
-    template schema will be accepted.
+- name: Box Delete Metadata on Folder
+  description: Used to delete the template instance. To delete custom key:value pairs
+    within a template instance, you should refer to the updating metadata section.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-metadata-scope-template-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-metadata-scope-template-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-metadata-scope-template-delete-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
