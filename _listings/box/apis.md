@@ -45,28 +45,31 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Create User
-  description: Used to provision a new user in an enterprise. This method only works
-    for enterprise admins.
+- name: Box Get Collaboration
+  description: "Used to get information about a single collaboration. All collaborations
+    for a single folder can be retrieved through GET /folders/{id}/collaborations.
+    A complete list of the user\u2019s pending collaborations can also be retrieved."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Get Current User
-  description: Retrieves information about the user who is currently logged in i.e.
-    the user for whom this auth token was generated.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
-  humanURL: http://box.com
-  baseURL: https://api.box.com//2.0
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-me-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-me-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get-postman.md
+- name: Box Get User's Info
+  description: Retrieves information about a user in the enterprise. Requires enterprise
+    administration authorization.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
