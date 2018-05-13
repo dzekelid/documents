@@ -58,18 +58,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get-postman.md
-- name: Box Get Collections
-  description: Retrieves the collections for the given user. Currently, only the favorites
-    collection is supported.
+- name: Box Get Collection Items
+  description: "Retrieves the files and/or folders contained within this collection.
+    Collection item lists behave a lot like getting a folder\u2019s items.\nPaginated
+    results can be retrieved using the limit and offset parameters.\nSub-object fields
+    can be requested via the ?fields parameter"
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collections-collection-id-items-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collections-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collections-collection-id-items-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
