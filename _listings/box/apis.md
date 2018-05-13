@@ -45,17 +45,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Create Metadata on Folder
-  description: Used to create the metadata template instance for a corresponding Box
-    folder. When creating metadata, only values that adhere to the metadata template
-    schema will be accepted.
+- name: Box Get Metadata on Folder
+  description: Used to retrieve the metadata template instance for a corresponding
+    Box folder.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-metadata-scope-template-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-metadata-scope-template-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-metadata-scope-template-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
