@@ -55,7 +55,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Get Retention Policy Assignments
+- name: Box Create Retention Policy Assignment
   description: Returns a list of all retention policy assignments associated with
     a specified retention policy.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
@@ -64,9 +64,7 @@ apis:
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/retention-policies-policy-id-assignments-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/retention-policies-policy-id-assignments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/retention-policy-assignments-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
