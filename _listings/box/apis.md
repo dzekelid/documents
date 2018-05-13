@@ -34,17 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-webhook-id-delete.md
-- name: Box Get File's Tasks
-  description: Retrieves all of the tasks for given file.
+- name: Box Create Folder
+  description: Used to create a new empty folder. The new folder will be created inside
+    of the specified parent folder
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/files-file-id-tasks-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/files-file-id-tasks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
