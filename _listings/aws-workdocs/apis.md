@@ -38,16 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-updatedocumentversion-get.md
-- name: AWS WorkDocs API Abort Document Version Upload
-  description: Aborts the upload of the specified document version that was previously
-    initiated by.
+- name: AWS WorkDocs API Delete Document
+  description: Permanently deletes the specified document and its associated metadata.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
   baseURL: http:://{host}//
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-abortdocumentversionupload-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-deletedocument-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
