@@ -38,15 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-updatedocumentversion-get.md
-- name: AWS WorkDocs API Delete Document
-  description: Permanently deletes the specified document and its associated metadata.
+- name: AWS WorkDocs API Describe Document Versions
+  description: Retrieves the document versions for the specified document.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
   baseURL: http:://{host}//
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-deletedocument-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-describedocumentversions-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
