@@ -1,11 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Get Folder's Info
+  description: "Retrieves the full metadata about a folder, including information
+    about when it was last updated as well as the files and folders contained in it.
+    The root folder of a Box account is always represented by the id \u201C0\u201D."
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
