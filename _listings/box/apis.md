@@ -66,19 +66,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get-postman.md
-- name: Box Delete Legal Hold Policy Assignment
-  description: Sends request to delete an existing Assignment. Note that this is an
-    asynchronous process - the Assignment will not be fully deleted yet when the response
-    comes back.
+- name: Box Get List of File Version Legal Holds
+  description: Get list of non-deleted Holds for a single Policy.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policy-assignments-assignment-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policy-assignments-assignment-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
