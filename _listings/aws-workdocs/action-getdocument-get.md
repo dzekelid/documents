@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Get Document
   version: 1.0.0
+  description: Retrieves the specified document object.
 schemes:
 - http
 produces:
