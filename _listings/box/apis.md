@@ -45,15 +45,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Create Task
-  description: Used to create a single task for single user on a single file.
+- name: Box Get Task
+  description: Fetches a specific task.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/tasks-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/tasks-task-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/tasks-task-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
