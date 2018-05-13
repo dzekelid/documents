@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Initiate Document Version Upload
   version: 1.0.0
+  description: Creates a new document object and version object.
 schemes:
 - http
 produces:
