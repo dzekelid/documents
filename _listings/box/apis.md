@@ -55,17 +55,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Get File Version Retention
-  description: Used to retrieve information about a file version retention
+- name: Box Create New Legal Hold Policy
+  description: Create a new Legal Hold Policy. Optional date filter may be passed.
+    If Policy has a date filter, any Custodian assignments will apply only to file
+    versions created or uploaded inside of the date range.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-retentions-file-version-retention-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-retentions-file-version-retention-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
