@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Create Collaboration
+  description: Used to add a collaboration for a single user or a single group to
+    a folder. Either an email address, a user ID, or a group id can be used to create
+    the collaboration. If the collaboration is being created with a group, access
+    to this endpoint is granted based on the group's invitability_level.
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
