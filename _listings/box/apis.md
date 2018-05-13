@@ -55,19 +55,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Get Memberships for User
-  description: Retrieves all of the group memberships for a given user. Note this
-    is only available to group admins. To retrieve group memberships for the user
-    making the API request, use the users/me/memberships endpoint.
+- name: Box Get Collaborations for Group
+  description: Retrieves all of the group collaborations for a given group. Note this
+    is only available to group admins.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-memberships-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-collaborations-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-memberships-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-collaborations-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
