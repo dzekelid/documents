@@ -58,19 +58,25 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get-postman.md
-- name: Box Searching for Content
-  description: The search endpoint provides a powerful way of finding items that are
-    accessible by a single user or an entire enterprise. Leverage the parameters listed
-    below to generate targeted advanced searches.
+- name: Box Shared Items
+  description: "Shared items are any files or folders that are represented by a shared
+    link. Shared items are different from other API resources in that a shared resource
+    doesn\u2019t necessarily have to be in the account of the user accessing it. The
+    actual shared link itself is used along with a normal access token.\nUsed to retrieve
+    the metadata about a shared item when only given a shared link. Because of varying
+    permission for shared links, a password may be required to retrieve the shared
+    item. Once the item has been retrieved, you can make API requests against the
+    actual resource /files/{id} or /folders/{id} as long as the shared link and optional
+    password are in the header."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/shared-items-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/shared-items-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
