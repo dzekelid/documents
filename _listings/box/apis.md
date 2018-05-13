@@ -45,38 +45,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Create User
-  description: Used to provision a new user in an enterprise. This method only works
-    for enterprise admins.
+- name: Box Get Collaboration
+  description: "Used to get information about a single collaboration. All collaborations
+    for a single folder can be retrieved through GET /folders/{id}/collaborations.
+    A complete list of the user\u2019s pending collaborations can also be retrieved."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Get Legal Hold Policies
-  description: Get a list of Legal Hold Policies that belong to your Enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
-  humanURL: http://box.com
-  baseURL: https://api.box.com//2.0
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get-postman.md
-- name: Box Get File Version Legal Hold
-  description: Get details of a single File Version Legal Hold.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get-postman.md
+- name: Box Delete Group
+  description: Permanently deletes a specific group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-group-id-delete-postman.md
+- name: Box Create Webhook
+  description: Create Webhook
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
