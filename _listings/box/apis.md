@@ -45,17 +45,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/web-links-web-link-id-delete-postman.md
-- name: Box Delete Task Assignment
-  description: Deletes a specific task assignment.
+- name: Box User Events, Enterprise Events
+  description: |-
+    Use this to get events for a given user. A chunk of event objects is returned for the user based on the parameters passed in. Parameters indicating how many chunks are left as well as the next stream_position are also returned.
+
+    To retrieve Enterprise Events specify 'stream_type=admin_logs'. Retrieves up to a year' events for all users in an enterprise. Upper and lower bounds as well as filters can be applied to the results.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/task-assignments-task-assignment-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/events-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/task-assignments-task-assignment-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/events-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
