@@ -34,18 +34,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-webhook-id-delete.md
-- name: Box Permanently Delete
-  description: Permanently deletes an folder that is in the trash. The item will no
-    longer exist in Box. This action cannot be undone.
+- name: Box Get Trashed Items
+  description: Retrieves the files and/or folders that have been moved to the trash.
+    Any attribute in the full files or folders objects can be passed in with the fields
+    parameter to get specific attributes, and only those specific attributes back;
+    otherwise, the mini format is returned for each item by default. Multiple attributes
+    can be passed in separated by commas e.g. fields=name,created_at. Paginated results
+    can be retrieved using the limit and offset parameters.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-trash-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-trash-items-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-trash-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-trash-items-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
