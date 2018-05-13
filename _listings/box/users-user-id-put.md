@@ -1,11 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Update User, Change User's Login
+  description: "Used to edit the settings and information about a user. This method
+    only works for enterprise admins. To roll a user out of the enterprise (and convert
+    them to a standalone free user), update the special enterprise attribute to be
+    null.\n\nUsed to convert one of the user\u2019s confirmed email aliases into the
+    user\u2019s primary login."
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
