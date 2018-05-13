@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Update Document
   version: 1.0.0
+  description: Updates the specified attributes of the specified document.
 schemes:
 - http
 produces:
