@@ -1,11 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Get Trashed Items
+  description: Retrieves the files and/or folders that have been moved to the trash.
+    Any attribute in the full files or folders objects can be passed in with the fields
+    parameter to get specific attributes, and only those specific attributes back;
+    otherwise, the mini format is returned for each item by default. Multiple attributes
+    can be passed in separated by commas e.g. fields=name,created_at. Paginated results
+    can be retrieved using the limit and offset parameters.
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
