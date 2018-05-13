@@ -1,11 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Invite User
+  description: Invites an existing user to join an Enterprise. The existing user can
+    not be part of another Enterprise and must already have a Box account. Once invited,
+    the user will receive an email and prompt to accept the invitation within the
+    Box web application. This method requires the "Manage An Enterprise" scope for
+    the enterprise, which can be enabled within your developer console.
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
