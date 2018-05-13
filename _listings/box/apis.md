@@ -58,19 +58,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/collaborations-collab-id-get-postman.md
-- name: Box Update User, Change User's Login
-  description: "Used to edit the settings and information about a user. This method
-    only works for enterprise admins. To roll a user out of the enterprise (and convert
-    them to a standalone free user), update the special enterprise attribute to be
-    null.\n\nUsed to convert one of the user\u2019s confirmed email aliases into the
-    user\u2019s primary login."
+- name: Box Delete User
+  description: Deletes a user in an enterprise account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-user-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
