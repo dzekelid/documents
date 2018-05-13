@@ -55,15 +55,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Create Group
-  description: Used to create a group.
+- name: Box Get Groups for an Enterprise
+  description: Retrieves all of the groups for given enterprise. Must have permissions
+    to see an enterprise's groups.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
