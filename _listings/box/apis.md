@@ -34,20 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-webhook-id-delete.md
-- name: Box Delete Folder
-  description: Used to delete a folder. A recursive parameter must be included in
-    order to delete folders that have items inside of them. An optional If-Match header
-    can be included to ensure that client only deletes the folder if it knows about
-    the latest version.
+- name: Box Restore Folder
+  description: Restores an item that has been moved to the trash. Default behavior
+    is to restore the item to the folder it was in before it was moved to the trash.
+    If that parent folder no longer exists or if there is now an item with the same
+    name in that parent folder, the new parent folder and/or new name will need to
+    be included in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
