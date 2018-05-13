@@ -66,17 +66,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/legal-hold-policies-get-postman.md
-- name: Box Get List of File Version Legal Holds
-  description: Get list of non-deleted Holds for a single Policy.
+- name: Box Get File Version Legal Hold
+  description: Get details of a single File Version Legal Hold.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/file-version-legal-holds-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
