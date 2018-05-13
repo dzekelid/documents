@@ -34,23 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-webhook-id-delete.md
-- name: "Box Get Folder\u2019s Items"
-  description: Retrieves the files and/or folders contained within this folder without
-    any other metadata about the folder. Any attribute in the full files or folders
-    objects can be passed in with the fields parameter to get specific attributes,
-    and only those specific attributes back; otherwise, the mini format is returned
-    for each item by default. Multiple attributes can be passed in separated by commas
-    e.g. fields=name,created_at. Paginated results can be retrieved using the limit
-    and offset parameters.
+- name: Box Copy Folder
+  description: Used to create a copy of a folder in another folder. The original version
+    of the folder will not be altered.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-items-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-items-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-copy-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
