@@ -38,16 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-updatedocumentversion-get.md
-- name: AWS WorkDocs API Get Document Path
-  description: Retrieves the path information (the hierarchy from the root folder)
-    for the requested document.
+- name: AWS WorkDocs API Get Document Version
+  description: Retrieves version metadata for the specified document.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
   baseURL: http:://{host}//
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-getdocumentpath-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/action-getdocumentversion-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
