@@ -55,19 +55,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Invite User
-  description: Invites an existing user to join an Enterprise. The existing user can
-    not be part of another Enterprise and must already have a Box account. Once invited,
-    the user will receive an email and prompt to accept the invitation within the
-    Box web application. This method requires the "Manage An Enterprise" scope for
-    the enterprise, which can be enabled within your developer console.
+- name: Box Get status of the invite
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/invites-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/invites-invite-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/invites-invite-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
