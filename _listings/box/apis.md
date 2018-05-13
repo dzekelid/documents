@@ -55,17 +55,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/users-post.md
-- name: Box Get status of the invite
-  description: ""
+- name: Box Create Group
+  description: Used to create a group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/invites-invite-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/invites-invite-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/groups-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
