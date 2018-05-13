@@ -34,16 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/webhooks-webhook-id-delete.md
-- name: Box Apply Watermark on Folder
-  description: Used to apply or update the watermark for a corresponding Box folder.
-    The endpoints accepts a JSON body describing the watermark to apply.
+- name: Box Remove Watermark on Folder
+  description: Used to remove the watermark for a corresponding Box Folder.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Documents
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-watermark-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-watermark-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/folders-folder-id-watermark-delete-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
