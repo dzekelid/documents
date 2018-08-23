@@ -1,21 +1,33 @@
 ---
 name: Quip
+x-slug: quip
 description: Quip changes the way teams work together. Quip combines documents, spreadsheets,
   checklists, and chat in a simple interface that makes collaboration easy. With Quip,
   you work with people, not files. Thousands of companies from a wide range of industries
   have adopted Quip to make communication and collaboration more efficient.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/quip-logo.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Documents
-- Collaboration
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/quip/apis.yaml
+x-alexaRank: "0"
+tags: Documents
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/quip/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Quip
+  x-api-slug: quip
+  description: Quip changes the way teams work together. Quip combines documents,
+    spreadsheets, checklists, and chat in a simple interface that makes collaboration
+    easy. With Quip, you work with people, not files. Thousands of companies from
+    a wide range of industries have adopted Quip to make communication and collaboration
+    more efficient.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/quip-logo.png
+  humanURL: https://quip.com/
+  baseURL: https:///
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/quip/openapi.md
 x-common:
 - type: x-blog
   url: https://quip.com/blog/

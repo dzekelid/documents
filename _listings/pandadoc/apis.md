@@ -1,5 +1,6 @@
 ---
 name: PandaDoc
+x-slug: pandadoc
 description: PandaDoc is a document automation software as a service with built-in
   electronic signatures, workflow management, a document builder, and CPQ functionality.
   PandaDoc was developed in the summer of 2013 to solve a need for salespeople and
@@ -7,18 +8,27 @@ description: PandaDoc is a document automation software as a service with built-
   and by allowing electronic signature acceptance.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pandadoc-logo.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Signature
-- Forms
-- Documents
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/pandadoc/apis.yaml
+x-alexaRank: "0"
+tags: Documents
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pandadoc/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PandaDoc
+  x-api-slug: pandadoc
+  description: PandaDoc is a document automation software as a service with built-in
+    electronic signatures, workflow management, a document builder, and CPQ functionality.
+    PandaDoc was developed in the summer of 2013 to solve a need for salespeople and
+    small businesses to close deals faster by gaining insight into their prospects
+    motivations and by allowing electronic signature acceptance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pandadoc-logo.png
+  humanURL: https://www.pandadoc.com
+  baseURL: https:///
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pandadoc/openapi.md
 x-common:
 - type: x-blog
   url: https://www.pandadoc.com/blog/

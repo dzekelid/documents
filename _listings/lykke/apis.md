@@ -7,61 +7,81 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Documents
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Lykke Get API Checkdocumentstoupload
+- name: Lykke
   x-api-slug: lykke
-  description: Get api checkdocumentstoupload.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/CheckDocumentsToUpload
-  tags: Checkdocumentstoupload
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apicheckdocumentstoupload-get-openapi.md
-- name: Lykke Get API Kycdocuments
+- name: Lykke
   x-api-slug: lykke
-  description: Get api kycdocuments.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/KycDocuments
-  tags: Kycdocuments
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apicheckdocumentstoupload-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocuments-get-openapi.md
-- name: Lykke Add API Kycdocuments
+- name: Lykke
   x-api-slug: lykke
-  description: Add api kycdocuments.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/KycDocuments
-  tags: Kycdocuments
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apicheckdocumentstoupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocuments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocuments-post-openapi.md
-- name: Lykke Get API Kycdocumentsbin
+- name: Lykke
   x-api-slug: lykke
-  description: Get api kycdocumentsbin.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/KycDocumentsBin/{id}
-  tags: Kycdocumentsbin
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocumentsbinid-get-openapi.md
-- name: Lykke Add API Kycdocumentsbin
-  x-api-slug: lykke
-  description: Add api kycdocumentsbin.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/KycDocumentsBin
-  tags: Kycdocumentsbin
-  properties:
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apicheckdocumentstoupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocuments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocuments-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocumentsbin-post-openapi.md
+- name: Lykke
+  x-api-slug: lykke
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apicheckdocumentstoupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocuments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocuments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocumentsbin-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apikycdocumentsbinid-get-openapi.md
 - name: Lykke
   x-api-slug: lykke
   description: Lykke is a movement to build one global marketplace that is a level
@@ -74,6 +94,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://lykke.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/lykke-ag
 - type: x-email

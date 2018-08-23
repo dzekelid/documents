@@ -1,27 +1,39 @@
 ---
 name: ConvertAPI
-description: The ConvertAPI provides online API for creating PDF and Images from various
-  sources like Word document, web pages or raw HTML codes. In just few minutes you
-  can integrate it into your application and use it easily.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/convertapi-logo.png
+x-slug: convertapi
+description: Create PDF easily with our developers API/SDK for Ruby Java .NET C# PHP
+  Shell Delphi.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Plans
-- Image Conversion
-- File Conversion
-- File Conversion
-- Documents
-- Document Conversion
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/convertapi/apis.yaml
+x-alexaRank: "717909"
+tags: Documents
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/convertapi/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Convert API
+  x-api-slug: convert-api
+  description: Create PDF easily with our developers API/SDK for Ruby Java .NET C#
+    PHP Shell Delphi.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg
+  humanURL: http://www.convertapi.com/
+  baseURL: https://do.convertapi.com//
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/convertapi/openapi.md
 x-common:
+- type: x-documentation
+  url: http://www.convertapi.com/api/web-pdf-api
+- type: x-api-gallery
+  url: http://context.io.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://convertapi.stack.network
 - type: x-base
   url: http://do.convertapi.com/
+- type: x-email
+  url: support@convertapi.com
 - type: x-email
   url: support@baltsoft.com
 - type: x-pricing
@@ -32,8 +44,12 @@ x-common:
   url: http://stackoverflow.com/questions/tagged/convertapi
 - type: x-terms-of-service
   url: http://www.convertapi.com/terms
+- type: x-twitter
+  url: https://twitter.com/ConvertAPI_
 - type: x-website
   url: http://www.convertapi.com/
+- type: x-website
+  url: http://convertapi.com
 include: []
 maintainers:
 - FN: Kin Lane

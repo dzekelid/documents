@@ -19,101 +19,180 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS WorkDocs API Abort Document Version Upload
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Aborts the upload of the specified document version that was previously
-    initiated by.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=AbortDocumentVersionUpload
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
-- name: AWS WorkDocs API Delete Document
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Permanently deletes the specified document and its associated metadata.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=DeleteDocument
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
-- name: AWS WorkDocs API Describe Document Versions
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Retrieves the document versions for the specified document.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=DescribeDocumentVersions
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
-- name: AWS WorkDocs API Get Document
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Retrieves the specified document object.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=GetDocument
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
-- name: AWS WorkDocs API Get Document Path
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Retrieves the path information (the hierarchy from the root folder)
-    for the requested document.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=GetDocumentPath
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentpath-get-openapi.md
-- name: AWS WorkDocs API Get Document Version
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Retrieves version metadata for the specified document.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=GetDocumentVersion
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentpath-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentversion-get-openapi.md
-- name: AWS WorkDocs API Initiate Document Version Upload
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Creates a new document object and version object.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=InitiateDocumentVersionUpload
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentpath-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentversion-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actioninitiatedocumentversionupload-get-openapi.md
-- name: AWS WorkDocs API Update Document
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Updates the specified attributes of the specified document.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=UpdateDocument
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentpath-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actioninitiatedocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionupdatedocument-get-openapi.md
-- name: AWS WorkDocs API Update Document Version
+- name: AWS WorkDocs API
   x-api-slug: aws-workdocs-api
-  description: Changes the status of the document version to ACTIVE.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
-  baseURL: ://///?Action=UpdateDocumentVersion
-  tags: Documents
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentpath-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actioninitiatedocumentversionupload-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionupdatedocument-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionupdatedocumentversion-get-openapi.md
 - name: AWS WorkDocs API
@@ -140,6 +219,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.waf.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.workdocs.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
 - type: x-faq

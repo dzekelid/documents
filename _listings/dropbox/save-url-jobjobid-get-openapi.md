@@ -4,11 +4,14 @@ x-collection-name: Dropbox
 x-complete: 0
 info:
   title: Dropbox Core Check the status of a save URL job.
-  description: "Check the status of a [save URL](https://www.dropbox.com/developers/core/docs#save-url)
-    job.\n\nStatus field may have one of the following values:\n  * `PENDING` \u2013
-    The job has not yet started.\n  * `DOWNLOADING` \u2013 The job has started but
-    hasn't yet completed.\n  * `COMPLETE` \u2013 The job is complete.\n  * `FAILED`
-    \u2013 The job failed. An additional `error` field will describe the failure."
+  description: |-
+    Check the status of a [save URL](https://www.dropbox.com/developers/core/docs#save-url) job.
+
+    Status field may have one of the following values:
+      * `PENDING` ??? The job has not yet started.
+      * `DOWNLOADING` ??? The job has started but hasn't yet completed.
+      * `COMPLETE` ??? The job is complete.
+      * `FAILED` ??? The job failed. An additional `error` field will describe the failure.
   termsOfService: https://www.dropbox.com/developers/reference/tos
   contact:
     name: Dropbox
@@ -598,12 +601,14 @@ paths:
   /save_url_job/{job-id}:
     get:
       summary: Check the status of a save URL job.
-      description: "Check the status of a [save URL](https://www.dropbox.com/developers/core/docs#save-url)
-        job.\n\nStatus field may have one of the following values:\n  * `PENDING`
-        \u2013 The job has not yet started.\n  * `DOWNLOADING` \u2013 The job has
-        started but hasn't yet completed.\n  * `COMPLETE` \u2013 The job is complete.\n
-        \ * `FAILED` \u2013 The job failed. An additional `error` field will describe
-        the failure."
+      description: |-
+        Check the status of a [save URL](https://www.dropbox.com/developers/core/docs#save-url) job.
+
+        Status field may have one of the following values:
+          * `PENDING` ??? The job has not yet started.
+          * `DOWNLOADING` ??? The job has started but hasn't yet completed.
+          * `COMPLETE` ??? The job is complete.
+          * `FAILED` ??? The job failed. An additional `error` field will describe the failure.
       operationId: check-the-status-of-a-save-urlhttpswwwdropboxcomdeveloperscoredocssaveurl-jobstatus-field-may-have-o
       x-api-path-slug: save-url-jobjobid-get
       parameters:

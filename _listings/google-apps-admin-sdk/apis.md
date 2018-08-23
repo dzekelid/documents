@@ -1,5 +1,6 @@
 ---
 name: Google Apps Admin SDK
+x-slug: google-apps-admin-sdk
 description: Administer domain resources, create reports, and manage subscriptions.
   Use the Directory API to create and manage users and groups for a domain, along
   with their aliases. Programmatically access the functionality found at the Admin
@@ -8,23 +9,33 @@ description: Administer domain resources, create reports, and manage subscriptio
   customer and user usage reports.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- SDK
-- Resellers
-- Reseller
-- Monetization
-- Licensing
-- Google APIs
-- Documents
-- Applications
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/google-apps-admin-sdk/apis.yaml
+x-alexaRank: "0"
+tags: Documents
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-apps-admin-sdk/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Apps Admin SDK API
+  x-api-slug: google-apps-admin-sdk-api
+  description: Administer domain resources, create reports, and manage subscriptions.
+    Use the Directory API to create and manage users and groups for a domain, along
+    with their aliases. Programmatically access the functionality found at the Admin
+    console Organization and users tab. Use the Reports API to gain insights on content
+    management with Google Drive activity reports. Audit administrator actions. Generate
+    customer and user usage reports.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-apps-admin-sdk/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.app.engine.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.apps.admin.sdk.stack.network
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
 - type: x-blog-rss

@@ -1,22 +1,33 @@
 ---
 name: Microsoft Office 365
+x-slug: microsoft-office-365
 description: Integrate Office 365 REST APIs powered by Microsoft Graph into your own
   app to connect to files, calendars, mail and more.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Spreadsheets
-- Productivity
-- Documents
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/microsoft-office-365/apis.yaml
+x-alexaRank: "0"
+tags: Documents
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/microsoft-office-365/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Microsoft Office 365
+  x-api-slug: microsoft-office-365
+  description: Integrate Office 365 REST APIs powered by Microsoft Graph into your
+    own app to connect to files, calendars, mail and more.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
+  humanURL: http://office.com
+  baseURL: https://outlook.office365.com//ews/odata/Me
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/microsoft-office-365/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://microsoft.graph.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://microsoft.office.365.stack.network
 - type: x-developer
   url: http://dev.office.com
 - type: x-github

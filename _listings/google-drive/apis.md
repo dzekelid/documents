@@ -1,5 +1,6 @@
 ---
 name: Google Drive
+x-slug: google-drive
 description: Google Drive is a file storage and synchronization service operated by
   Google. It allows users to store files in the cloud, synchronize files across devices,
   and share files. Google Drive encompasses Google Docs, Sheets and Slides, an office
@@ -7,20 +8,32 @@ description: Google Drive is a file storage and synchronization service operated
   drawings, forms, and more.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Storage
-- Stack Network
-- Stack
-- Productivity
-- Google APIs
-- Documents
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/documents/master/_listings/google-drive/apis.yaml
+x-alexaRank: "0"
+tags: Documents
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-drive/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Drive
+  x-api-slug: google-drive
+  description: Google Drive is a file storage and synchronization service operated
+    by Google. It allows users to store files in the cloud, synchronize files across
+    devices, and share files. Google Drive encompasses Google Docs, Sheets and Slides,
+    an office suite that permits collaborative editing of documents, spreadsheets,
+    presentations, drawings, forms, and more.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
+  humanURL: https://developers.google.com/drive/
+  baseURL: https://www.googleapis.com//drive/v3
+  tags: Documents
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-drive/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.doubleclick.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.drive.stack.network
 - type: x-best-practices
   url: https://developers.google.com/drive/v3/web/practices
 - type: x-branding-guidelines

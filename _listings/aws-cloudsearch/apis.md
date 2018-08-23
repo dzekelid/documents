@@ -10,20 +10,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS CloudSearch Index Documents
+- name: AWS CloudSearch
   x-api-slug: aws-cloudsearch
-  description: Tells the search domain to start indexing its documents using the latest
-    indexing options.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
   humanURL: https://aws.amazon.com/cloudsearch/
-  baseURL: https://///?Action=IndexDocuments
-  tags: Index Documents
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/20130101documentsbatch-get-openapi.md
+- name: AWS CloudSearch
+  x-api-slug: aws-cloudsearch
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/20130101documentsbatch-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/actionindexdocuments-get-postman.md
   - type: x-openapi-spec
@@ -43,6 +56,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.cloudhsm.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudsearch.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cloudsearch/latest/developerguide/cloudsearch-command-line-tools.html
 - type: x-console
