@@ -9,14 +9,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-
 x-kinRank: "7"
 x-alexaRank: "7238418"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Docsmore
-  x-api-slug: docsmore
-  description: alt-texthttpswww-docsmore-comwpcontentuploads201802docsmoreapi-png-titleh3create-a-developer-account-at-docsmore-io-and-start-unleashing-the-power-of-docsmore-into-your-own-applications--to-make-it-easier-we-have-provided-client-libraries-and-sdk-in-several-languages-for-you-to-get-started-and-hit-the-ground-running-in-no-time-h3brbrh4note-if-you-dont-see-api-setting-under-top-right-menu-that-means-you-will-need-to-be-a-developer-account--please-contact-supportdocsmore-com-and-a-customer-service-expert-will-switch-your-account-to-developer-account--h4brbrh5just-head-over-to-httpsdocsmore-io-and-sign-up-for-your-30-days-trial-h5
+- name: Docsmore API 2.1 - Fetch All Documents from Your Team Catalogue
+  x-api-slug: apidmcatalogue-post
+  description: By design, the authenticated user can only view the files that are
+    either created by them or shared with them. Make sure user has at least read permission
+    to view the catalogue.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg
   humanURL: http://api.docsmore.com
   baseURL: https://api.docsmore.com//
@@ -26,19 +28,61 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidmcatalogue-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidmcatalogue-post-openapi.md
-- name: Docsmore
-  x-api-slug: docsmore
-  description: FORM.FILL.SIGN - With Docsmore, the process of setting up a form and
-    sending to users to complete or sign is simplified.  Use our platform to easily
-    upload a document, specify form fields/signage, and send to users for completion.  Present
-    forms to you...
+- name: Docsmore API 2.1 - Get Raw Data For A Given Document
+  x-api-slug: apiclientdocsgetrawdataauthtokendocumentkey-get
+  description: |-
+    This API call gets you underlying raw data of the document. All you need to do is supply Auth token and Document Key as part of the call.
+
+    Document Key can be obtained from "Document Gallery" Page and Clicking on the sub-menu of the desired document.
+
+    As a response object, jsondata and metadata information is passed. Jsondata is basically raw data and metadata is data columns information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg
   humanURL: http://api.docsmore.com
   baseURL: https://api.docsmore.com//
-  tags: Documents
+  tags: SaaS, Technology, Documents, Forms
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apiclientdocsgetrawdataauthtokendocumentkey-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apiclientdocsgetrawdataauthtokendocumentkey-get-openapi.md
+- name: Docsmore API 2.1 - Fetch All Documents from Your Team Catalogue
+  x-api-slug: apidmcatalogue-post
+  description: By design, the authenticated user can only view the files that are
+    either created by them or shared with them. Make sure user has at least read permission
+    to view the catalogue.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg
+  humanURL: http://api.docsmore.com
+  baseURL: https://api.docsmore.com//
+  tags: SaaS, Technology, Documents, Forms
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidmcatalogue-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidmcatalogue-post-openapi.md
+- name: Docsmore API 2.1 - Fetch Single Document
+  x-api-slug: apidmcatalogueid-post
+  description: Fetch single document.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg
+  humanURL: http://api.docsmore.com
+  baseURL: https://api.docsmore.com//
+  tags: SaaS, Technology, Documents, Forms
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidmcatalogueid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidmcatalogueid-post-openapi.md
+- name: Docsmore API 2.1 - Get All Document Flows
+  x-api-slug: apidocflowgetdocflows-get
+  description: Get all document flows.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg
+  humanURL: http://api.docsmore.com
+  baseURL: https://api.docsmore.com//
+  tags: SaaS, Technology, Documents, Forms
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidocflowgetdocflows-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apidocflowgetdocflows-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://digitalocean.api.gallery.streamdata.io

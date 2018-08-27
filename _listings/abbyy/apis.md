@@ -15,23 +15,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/298-abbyy-
 x-kinRank: "8"
 x-alexaRank: "430045"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/abbyy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: ABBYY Cloud OCR
-  x-api-slug: abbyy-cloud-ocr
-  description: Previously available only to enterprises and imaging specialists, highly-accurate
-    ABBYY OCR SDK is now available for everyone in a cloud through web API. Free to
-    develop, unlimited testing with sample images, pay only for production use.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/298-abbyy-cloud-ocr-sdk.jpg
-  humanURL: http://ocrsdk.com/
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/abbyy/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://cloud.ocrsdk.com

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-conver
 x-kinRank: "8"
 x-alexaRank: "717909"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/convertapi/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Convert API
-  x-api-slug: convert-api
-  description: Create PDF easily with our developers API/SDK for Ruby Java .NET C#
-    PHP Shell Delphi.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg
-  humanURL: http://www.convertapi.com/
-  baseURL: https://do.convertapi.com//
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/convertapi/openapi.md
+apis: []
 x-common:
 - type: x-documentation
   url: http://www.convertapi.com/api/web-pdf-api

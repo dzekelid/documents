@@ -11,26 +11,11 @@ image: http://actualreports.com/assets/images/logo/logo.png
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/actual-reports/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Actual Reports
-  x-api-slug: actual-reports
-  description: Actual Reports is a versatile document generation platform that is
-    a foundation for multiple segment-specific products that help companies streamline
-    their document generation process. Our line of products enable you to automate
-    your document creation and delivery process, saving you time and money. Our main
-    products are Document Creator for QuickBooks Online, Printout Designer for online
-    retailers, and Document Generation API for developers.
-  image: http://actualreports.com/assets/images/logo/logo.png
-  humanURL: http://actualreports.com/
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/actual-reports/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: https://app.actualreports.com/apis.json

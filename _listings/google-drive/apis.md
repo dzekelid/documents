@@ -10,25 +10,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-drive/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Drive
-  x-api-slug: google-drive
-  description: Google Drive is a file storage and synchronization service operated
-    by Google. It allows users to store files in the cloud, synchronize files across
-    devices, and share files. Google Drive encompasses Google Docs, Sheets and Slides,
-    an office suite that permits collaborative editing of documents, spreadsheets,
-    presentations, drawings, forms, and more.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
-  humanURL: https://developers.google.com/drive/
-  baseURL: https://www.googleapis.com//drive/v3
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-drive/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://google.doubleclick.api.gallery.streamdata.io

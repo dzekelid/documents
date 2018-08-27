@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1066-group
 x-kinRank: "8"
 x-alexaRank: "543000"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/groupdocs/apis.md
 specificationVersion: "0.14"
-apis:
-- name: GroupDocs
-  x-api-slug: groupdocs
-  description: GroupDocs offers .NET/Java libraries and cloud APIs that let you view,
-    compare, annotate, sign and convert over 45 common document formats in your own
-    app.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1066-groupdocs.jpg
-  humanURL: http://groupdocs.com
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/groupdocs/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://groupdocs.com/blog/

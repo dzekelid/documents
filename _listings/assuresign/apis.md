@@ -9,28 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/547-assure
 x-kinRank: "8"
 x-alexaRank: "1154675"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/assuresign/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AssureSign
-  x-api-slug: assuresign
-  description: AssureSign Integration Partners bring value to our joint customers
-    by working with the AssureSign API Toolkits to integrate AssureSign electronic
-    signature applications into existing business systems and processes. Integration
-    Partners can leverage our easy to use, standards-based tools to deploy AssureSign
-    in a variety of ways. Some of AssureSign???s pre-built integrations to leading
-    CRM and Financial Services applications provide partners with the foundation to
-    build custom applications based on unique customer-specific requirements with
-    minimal effort.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/547-assuresign.jpg
-  humanURL: http://www.assuresign.com
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/assuresign/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.assuresign.com

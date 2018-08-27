@@ -11,14 +11,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+- name: plentymarkets REST-API - Get a single storage object from contact documents
+  x-api-slug: restaccountscontactscontactiddocument-get
+  description: Get a single storage object from contact documents.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
@@ -28,367 +28,79 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+- name: plentymarkets REST-API - Delete files from contact documents
+  x-api-slug: restaccountscontactscontactiddocuments-delete
+  description: Delete files from contact documents.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
   tags: ERP, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+- name: plentymarkets REST-API - List documents of a category
+  x-api-slug: restcategoriescategoryiddocuments-get
+  description: Lists the documents of a category. The ID of the category must be specified.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
   tags: ERP, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+- name: plentymarkets REST-API - Get a temporary url for a single document
+  x-api-slug: restaccountscontactscontactiddocumenturl-get
+  description: Get a temporary url for a single document.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
   tags: ERP, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocumenturl-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocumenturl-get-openapi.md
+- name: plentymarkets REST-API - Starts download of contract document
+  x-api-slug: restcustomer-contractscontractiddocument-get
+  description: Starts download of contract document.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
   tags: ERP, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcustomer-contractscontractiddocument-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcustomer-contractscontractiddocument-get-openapi.md
+- name: plentymarkets REST-API - Starts download of signed contract document
+  x-api-slug: restcustomer-contractscontractidsigndocument-get
+  description: Starts download of signed contract document.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
   tags: ERP, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcustomer-contractscontractidsigndocument-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcustomer-contractscontractidsigndocument-get-openapi.md
+- name: plentymarkets REST-API - Download the content of a document
+  x-api-slug: restdocumentsdocumentid-get
+  description: Downloads the content of a document. The ID of the document must be
+    specified.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
   humanURL: http://www.plentymarkets.co.uk
   baseURL: https://example.com//
   tags: ERP, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restdocumentsdocumentid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentstype-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersshippingexport-documentsorderid-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersshippingexport-documentsorderid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentsdownloadstype-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersshippingexport-documentsorderid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentstype-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersshippingexport-documentsorderid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentstype-post-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersshippingexport-documentsorderid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentstype-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/reststoragelayout-delete-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: ERP, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocument-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restaccountscontactscontactiddocuments-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocuments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restcategoriescategoryiddocumentsdownloads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersdocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersshippingexport-documentsorderid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentsdownloadstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentstype-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restordersorderiddocumentstype-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/reststoragelayout-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/reststoragelayoutlist-get-openapi.md
-- name: Plentymarkets
-  x-api-slug: plentymarkets
-  description: plentymarkets is an all-in-one e-commerce ERP solution, which combines
-    a comprehensive stock management system with a versatile shop system and effortless
-    multichannel sales. Thanks to comprehensive functions and interfaces that include
-    all steps of the e-commerce value chain, you can use the cloud based software
-    to completely automate all of your e-business processes as well as your companys
-    own individual processes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
-  humanURL: http://www.plentymarkets.co.uk
-  baseURL: https://example.com//
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/restdocumentsdocumentid-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

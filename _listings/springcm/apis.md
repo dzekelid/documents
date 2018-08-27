@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1166-sprin
 x-kinRank: "7"
 x-alexaRank: "164020"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/springcm/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SpringCM
-  x-api-slug: springcm
-  description: SpringCM delivers an innovative document workflow and management platform,
-    powering the leading contract lifecycle management (CLM) application.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1166-springcm.jpg
-  humanURL: https://www.springcm.com/
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/springcm/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://www.springcm.com/

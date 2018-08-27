@@ -103,4 +103,27 @@ paths:
           description: OK
       tags:
       - Kycdocumentsbin
+  /api/KycDocumentUpload:
+    post:
+      summary: Add API Kycdocumentupload
+      description: Add api kycdocumentupload.
+      operationId: ApiKycDocumentUploadPost
+      x-api-path-slug: apikycdocumentupload-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: query
+        name: idType
+      - in: formfile
+        name: photo
+      - in: query
+        name: type
+      - in: formfile
+        name: userFile
+      responses:
+        200:
+          description: OK
+      tags:
+      - Kycdocumentupload
 ---

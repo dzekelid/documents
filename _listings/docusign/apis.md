@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/183-docusi
 x-kinRank: "8"
 x-alexaRank: "1937"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docusign/apis.md
 specificationVersion: "0.14"
-apis:
-- name: DocuSign
-  x-api-slug: docusign
-  description: DocuSign Enterprise helps companies securely collect information, automate
-    data workflows, and sign everything, everywhere. With scalable management and
-    comprehensive security and administrative controls, companies will find everything
-    needed to automate manual, paper-based processes and accelerate transaction cycle
-    times across the entire organization.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/183-docusign.jpg
-  humanURL: http://www.docusign.com
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docusign/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://docusign.net/restapi/

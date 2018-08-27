@@ -7,25 +7,18 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Cloud Elements - Dropbox For Business API
-  x-api-slug: cloud-elements--dropbox-for-business-api
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1/team
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: the-dropbox-content-api-is-a-part-of-dropbox-core-api-with-a-separate-endpoint-for-file-content-management-operations-
+- name: Dropbox Content API v1 - Downloads a file.
+  x-api-slug: filesrootpath-get
+  description: |-
+    Downloads a file.
+
+    This method also supports [HTTP Range Retrieval Requests](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.2)
+    to allow retrieving partial file contents.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api-content.dropbox.com//1
@@ -37,146 +30,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: the-dropbox-content-api-is-a-part-of-dropbox-core-api-with-a-separate-endpoint-for-file-content-management-operations-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
-    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
-    API Service Provider, Profiles, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-post-openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: the-dropbox-content-api-is-a-part-of-dropbox-core-api-with-a-separate-endpoint-for-file-content-management-operations-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
-    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
-    API Service Provider, Profiles, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-put-openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: the-dropbox-content-api-is-a-part-of-dropbox-core-api-with-a-separate-endpoint-for-file-content-management-operations-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
-    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
-    API Service Provider, Profiles, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/thumbnailsrootpath-get-openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: the-dropbox-content-api-is-a-part-of-dropbox-core-api-with-a-separate-endpoint-for-file-content-management-operations-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
-    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
-    API Service Provider, Profiles, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/thumbnailsrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/previewsrootpath-get-openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: the-dropbox-content-api-is-a-part-of-dropbox-core-api-with-a-separate-endpoint-for-file-content-management-operations-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
-    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
-    API Service Provider, Profiles, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/thumbnailsrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/previewsrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/chunked-upload-put-openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: the-dropbox-content-api-is-a-part-of-dropbox-core-api-with-a-separate-endpoint-for-file-content-management-operations-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
-    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
-    API Service Provider, Profiles, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/thumbnailsrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/previewsrootpath-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/chunked-upload-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/commit-chunked-uploadrootpath-post-openapi.md
-- name: Dropbox Content
-  x-api-slug: dropbox-content
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-content.dropbox.com//1
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Convert OAuth 1 token to OAuth 2 token.
+  x-api-slug: oauth2token-from-oauth1-post
+  description: |-
+    This endpoint should be used by apps transitioning from OAuth 1 to OAuth 2. It will return an OAuth 2 token
+    for the authenticated user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -188,9 +46,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Disables the access token.
+  x-api-slug: disable-access-token-post
+  description: Disables the access token used to authenticate the call. This method
+    works for OAuth 1 and OAuth 2 tokens.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -198,17 +57,13 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Retrieves information about the user's account.
+  x-api-slug: accountinfo-get
+  description: Retrieves information about the user's account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -216,21 +71,16 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Retrieves file and folder metadata.
+  x-api-slug: metadatarootpath-get
+  description: |-
+    Retrieves file and folder metadata.
+
+    **Note:** `modified`, `rev`, and `revision` aren't returned in the metadata for the root/top-level path.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -238,25 +88,54 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - A way of letting you keep up with changes to files and
+    folders in a user's Dropbox.
+  x-api-slug: delta-post
+  description: |-
+    A way of letting you keep up with changes to files and folders in a user's Dropbox.
+
+    You can periodically call `/delta` to get a list of "delta entries", which are instructions on how to
+    update your local state to match the server's state.
+
+    If you use the `path_prefix` parameter, you must continue to pass the correct prefix on subsequent calls
+    using the returned cursor. You can switch the `path_prefix` on any existing cursor to a descendant of the
+    existing `path_prefix` on subsequent calls to `/delta`. For example if your cursor has no `path_prefix`,
+    you can switch to any `path_prefix`. If your cursor has a `path_prefix` of "/Photos", you can switch it
+    to "/Photos/Vacaction".
+
+    When `include_media_info` is specified, files will only appear in delta responses when the media info is
+    ready. If you use the `include_media_info` parameter, you must continue to pass the same value on subsequent
+    calls using the returned cursor.
+
+    **Important:** Unfortunately it is not possible to model correct Dropbox response with Swagger specification,
+    due to [nested array](https://github.com/swagger-api/swagger-spec/issues/40) usage in delta response.
+
+    Successful result [will return](https://gist.github.com/ando-takahiro/5203137) an array of delta `entries`.
+    Each delta entry is a 2-item list of one of the following forms:
+
+      * `[, ]` - Indicates that there is a file/folder at the given path. You should add the entry
+      to your local state. The metadata value is the same as what would be returned by the `/metadata` call, except
+      folder metadata doesn't have `hash` or `contents` fields. To correctly process delta entries:
+        * If the new entry includes parent folders that don't yet exist in your local state, create those parent
+        folders in your local state.
+        * If the new entry is a file, replace whatever your local state has at path with the new entry.
+        * If the new entry is a folder, check what your local state has at ``. If it's a file, replace it
+        with the new entry. If it's a folder, apply the new `` to the folder, but don't modify the
+        folder's children. If your local state doesn't yet include this path, create it as a folder.
+        * If the new entry is a folder with the `read-only` field set to `true`, apply the read-only permission
+        recursively to all files within the shared folder.
+      * `[, null]` - Indicates that there is no file/folder at the given path. To update your local state
+      to match, anything at path and all its children should be deleted. Deleting a folder in your Dropbox will
+      sometimes send down a single deleted entry for that folder, and sometimes separate entries for the folder
+      and all child paths. If your local state doesn't have anything at path, ignore this entry.
+
+    **Note:** Dropbox treats file names in a case-insensitive but case-preserving way. To facilitate this,
+    the `` values above are lower-cased versions of the actual path. The last path component of the
+    `` value will be case-preserved.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -264,29 +143,23 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - A way to quickly get a cursor for the server's state,
+    for use with /delta.
+  x-api-slug: deltalatest-cursor-post
+  description: |-
+    A way to quickly get a cursor for the server's state, for use with `/delta`.
+
+    Unlike `/delta`, `/delta/latest_cursor` does not return any entries, so your app will not know about any
+    existing files or folders in the Dropbox account. For example, if your app processes future delta entries
+    and sees that a folder was deleted, your app won't know what files were in that folder. Use this endpoint
+    if your app only needs to know about new files and modifications and doesn't need to know about files that
+    already exist in Dropbox.
+
+    If you need to build local state to match the server state in Dropbox, you should instead use `/delta`.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -294,33 +167,19 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Obtains metadata for all available revisions of a file,
+    including the current revision.
+  x-api-slug: revisionsrootpath-get
+  description: |-
+    Obtains metadata for all available revisions of a file, including the current revision.
+
+    Only revisions up to thirty days old are available (or more if the Dropbox user has
+    [Extended Version History](https://www.dropbox.com/help/113)). You can use the revision number in conjunction
+    with the `/restore` call to revert the file to its previous state.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -328,37 +187,17 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Restores a file path to a previous revision.
+  x-api-slug: restorerootpath-post
+  description: |-
+    Restores a file path to a previous revision.
+
+    Unlike downloading a file at a given revision and then re-uploading it, this call is atomic. It also saves
+    a bunch of bandwidth.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -366,41 +205,18 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Search for files and folders by name.
+  x-api-slug: searchrootpath-get
+  description: |-
+    Returns metadata for all files and folders whose filename contains the given search string as a substring.
+
+    Searches are limited to the folder path and its sub-folder hierarchy provided in the call.
+
+    **Note:** Recent changes may not immediately be reflected in search results due to a short delay in indexing.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -408,45 +224,18 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Search for files and folders by name.
+  x-api-slug: searchrootpath-post
+  description: |-
+    Returns metadata for all files and folders whose filename contains the given search string as a substring.
+
+    Searches are limited to the folder path and its sub-folder hierarchy provided in the call.
+
+    **Note:** Recent changes may not immediately be reflected in search results due to a short delay in indexing.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -454,49 +243,24 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Creates and returns a shared link to a file or folder.
+  x-api-slug: sharesrootpath-post
+  description: |-
+    Creates and returns a [shared link](https://www.dropbox.com/help/167) to a file or folder.
+
+    Dropbox for Business users can set restrictions on shared links; the `visibility` field indicates what
+    (if any) restrictions are set on this particular link. Possible values include:
+      * `PUBLIC` - anyone can view
+      * `TEAM_ONLY` - only the owner's team can view
+      * `PASSWORD` - a password is required
+      * `TEAM_AND_PASSWORD` - a combination of `TEAM_ONLY` and `PASSWORD` restrictions
+      * `SHARED_FOLDER_ONLY` - only [members](https://www.dropbox.com/help/6636) of the enclosing shared folder can view
+
+    Note that other values may be added at any time.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -504,53 +268,21 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Returns a link directly to a file.
+  x-api-slug: mediarootpath-post
+  description: |-
+    Returns a link directly to a file.
+
+    Similar to [/shares](https://www.dropbox.com/developers/core/docs#shares). The difference is that this
+    bypasses the Dropbox webserver, used to provide a preview of the file, so that you can effectively stream
+    the contents of your media. This URL should not be used to display content directly in the browser.
+
+    The `/media` link expires after four hours, allotting enough time to stream files, but not enough to leave
+    a connection open indefinitely.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -558,57 +290,17 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Creates and returns a copy_ref to a file.
+  x-api-slug: copy-refrootpath-get
+  description: |-
+    Creates and returns a `copy_ref` to a file.
+
+    This reference string can be used to copy that file to another user's Dropbox by passing it in as the
+    `from_copy_ref` parameter on [/fileops/copy](https://www.dropbox.com/developers/core/docs#fileops-copy).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -616,61 +308,24 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Returns a list of all shared folders.
+  x-api-slug: shared-folders-get
+  description: |-
+    Returns a list of all shared folders the authenticated user has access to.
+
+    This API call requires Full Dropbox or File type [permissions](https://www.dropbox.com/developers/reference/devguide#app-permissions).
+
+    Note that `same_team` is only present if the linked account is a member of a Dropbox for Business team,
+    and `member_id` is only present when this endpoint is called by a Dropbox for Business app and the user
+    is on that team.
+
+    The `membership` field only contains users who have joined the shared folder and does not include users who
+    have been invited but have not accepted. When the `active` field is `false`, it means that a user has left
+    a shared folder (but may still rejoin).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -678,65 +333,24 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Returns metadata about a specific shared folder.
+  x-api-slug: shared-foldersshared-folder-id-get
+  description: |-
+    Returns metadata about a specific shared folder.
+
+    This API call requires Full Dropbox or File type [permissions](https://www.dropbox.com/developers/reference/devguide#app-permissions).
+
+    Note that `same_team` is only present if the linked account is a member of a Dropbox for Business team,
+    and `member_id` is only present when this endpoint is called by a Dropbox for Business app and the user
+    is on that team.
+
+    The `membership` field only contains users who have joined the shared folder and does not include users who
+    have been invited but have not accepted. When the `active` field is `false`, it means that a user has left
+    a shared folder (but may still rejoin).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -744,69 +358,16 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Save a file from the specified URL into Dropbox.
+  x-api-slug: save-urlrootpath-post
+  description: |-
+    Save a file from the specified URL into Dropbox.
+
+    If the given path already exists, the file will be renamed to avoid the conflict (e.g. `myfile (1).txt`).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -814,73 +375,20 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Check the status of a save URL job.
+  x-api-slug: save-url-jobjobid-get
+  description: |-
+    Check the status of a [save URL](https://www.dropbox.com/developers/core/docs#save-url) job.
+
+    Status field may have one of the following values:
+      * `PENDING` ??? The job has not yet started.
+      * `DOWNLOADING` ??? The job has started but hasn't yet completed.
+      * `COMPLETE` ??? The job is complete.
+      * `FAILED` ??? The job failed. An additional `error` field will describe the failure.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -888,77 +396,13 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Copies a file or folder to a new location.
+  x-api-slug: fileopscopy-post
+  description: Copies a file or folder to a new location.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -966,81 +410,13 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Creates a folder.
+  x-api-slug: fileopscreate-folder-post
+  description: Creates a folder.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -1048,85 +424,13 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscreate-folder-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscreate-folder-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Deletes a file or folder.
+  x-api-slug: fileopsdelete-post
+  description: Deletes a file or folder.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -1134,89 +438,13 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscreate-folder-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscreate-folder-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopsdelete-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopsdelete-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswww-dropbox-commobileand-our-sdkshttpswww-dropbox-comdeveloperscoresdk--its-the-most-direct-way-to-access-the-api--thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail-
+- name: Dropbox Core API v1 - Moves a file or folder to a new location.
+  x-api-slug: fileopsmove-post
+  description: Moves a file or folder to a new location.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api.dropbox.com//1
@@ -1224,114 +452,21 @@ apis:
     EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
     API Service Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/disable-access-token-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/accountinfo-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/metadatarootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/delta-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/deltalatest-cursor-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/revisionsrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/restorerootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/searchrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/sharesrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/mediarootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/copy-refrootpath-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-folders-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/shared-foldersshared-folder-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-urlrootpath-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/save-url-jobjobid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscopy-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscreate-folder-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopscreate-folder-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopsdelete-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopsdelete-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopsmove-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/fileopsmove-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/openapi.md
-- name: Dropbox Datastore API
-  x-api-slug: dropbox-datastore-api
-  description: Keep your apps structured data in sync with Dropbox
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/openapi.md
-- name: Dropbox Notify
-  x-api-slug: dropbox-notify
-  description: the-dropbox-notify--is-a-part-of-dropbox-core-ap-with-a-separate-endpoint-for-notification-call-
+- name: Dropbox Notify Appendix API v1 - A long-poll endpoint to wait for changes
+    on an account.
+  x-api-slug: longpoll-delta-get
+  description: |-
+    A long-poll endpoint to wait for changes on an account. In conjunction with [/delta](https://www.dropbox.com/developers/core/docs#delta),
+    this call gives you a low-latency way to monitor an account for file changes.
+
+    Note that this call goes to **api-notify.dropbox.com** instead of *api.dropbox.com*.
+
+    Unlike most other API endpoints, this call does not require OAuth authentication. The passed in `cursor` can
+    only be acquired via an authenticated call to [/delta](https://www.dropbox.com/developers/core/docs#delta).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
   baseURL: https://api-notify.dropbox.com//1
@@ -1343,17 +478,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/longpoll-delta-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/longpoll-delta-get-openapi.md
-- name: Dropbox Notify
-  x-api-slug: dropbox-notify
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api-notify.dropbox.com//1
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://donorschoose.api.gallery.streamdata.io

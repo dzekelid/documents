@@ -38,6 +38,25 @@ paths:
       - Condition
       - Condition
       - Documents
+    post:
+      summary: Post Request Requestid Condition Condition Documents
+      description: Post request requestid condition condition documents.
+      operationId: postApiV1RequestRequestConditionConditionDocuments
+      x-api-path-slug: apiv1requestrequestidconditionconditiondocuments-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: query
+        name: file
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Condition
+      - Condition
+      - Documents
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

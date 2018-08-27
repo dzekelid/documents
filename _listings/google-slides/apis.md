@@ -11,26 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-slides/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Slides API
-  x-api-slug: google-slides-api
-  description: The Google Slides API lets you create and modify Google Slides presentations.
-    Apps can integrate with the Google Slides API to create beautiful slide decks
-    automatically from user- and system-provided data. For example, you could use
-    customer details from a database and combine them with predesigned templates and
-    selected configuration options to create finished presentations in a fraction
-    of the time it would take to create them manually.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png
-  humanURL: https://docs.google.com/presentation/
-  baseURL: ://slides.googleapis.com//
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-slides/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://google.site.verification.api.gallery.streamdata.io

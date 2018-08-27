@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/453-pdfcro
 x-kinRank: "7"
 x-alexaRank: "72991"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pdfcrowd/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Pdfcrowd
-  x-api-slug: pdfcrowd
-  description: The Pdfcrowd online API is a professional solution that lets you create
-    PDF from web pages and raw HTML code in your applications. The API is easy to
-    use and the integration takes only a few lines of cod
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/453-pdfcrowd.jpg
-  humanURL: http://pdfcrowd.com
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pdfcrowd/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://pdfcrowd.com/api/

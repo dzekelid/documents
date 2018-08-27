@@ -27,43 +27,29 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Regulations.gov Search for Documents
-  x-api-slug: regulations-gov
-  description: Search for documents.
-  image: ""
-  humanURL: http://data.gov.au/
-  baseURL: https://api.data.gov//regulations/v3//documents.{response_format}
-  tags: SearchDocuments
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/documents-response-format-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/documents-response-format-get-openapi.md
-- name: Regulations.gov
-  x-api-slug: regulations-gov
-  description: Regulations.gov is a website from the United States federal government
-    for helping citizens access documents describing federal regulations. Government
-    agencies post notices, rules, proposed rules and requests for comment on the site.
-    Users can search by timeframe, keyword and type of document.The Regulations.gov
-    API provides developers with access to the same information on the website in
-    a programmatic interface. Search documents, retrieve specific dockets or get document
-    information. Developers can filter search results by date, agency, docket ID and
-    comment period.The full documentation is available on the site as a PDF linked
-    from the footer. The API returns data as XML or JSON and requires an API Key available
-    upon request.
+- name: Regulations.gov - Returns Document information
+  x-api-slug: document-response-format-get
+  description: Returns document information.
   image: ""
   humanURL: http://data.gov.au/
   baseURL: https://api.data.gov//regulations/v3
-  tags: Documents
+  tags: Australia, Datasets, Government, Australian Government, Data Provider, API
+    Provider, Australian Government, Profiles, General Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/document-response-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/document-response-format-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://data.gov.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://data.gov.au.stack.network
 - type: x-website
   url: http://data.gov.au/
 - type: x-website

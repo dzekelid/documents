@@ -40,6 +40,26 @@ paths:
       - From
       - Contact
       - Documents
+    post:
+      summary: Upload a document to contact directory
+      description: Upload a document to contact directory.
+      operationId: postRestAccountsContactsContactDocument
+      x-api-path-slug: restaccountscontactscontactiddocument-post
+      parameters:
+      - in: path
+        name: contactId
+      - in: query
+        name: key
+        description: The storage key for the file to upload
+      responses:
+        200:
+          description: OK
+      tags:
+      - Upload
+      - Document
+      - To
+      - Contact
+      - Directory
   /rest/accounts/contacts/{contactId}/documents:
     delete:
       summary: Delete files from contact documents
@@ -346,6 +366,23 @@ paths:
       tags:
       - Layout
       - Documents
+    post:
+      summary: Upload a layout document
+      description: Uploads a layout document to storage. The storage key (i.e. file
+        path) must be specified.
+      operationId: postRestStorageLayout
+      x-api-path-slug: reststoragelayout-post
+      parameters:
+      - in: query
+        name: key
+        description: The storage key for the layout document to upload
+      responses:
+        200:
+          description: OK
+      tags:
+      - Upload
+      - Layout
+      - Document
   /rest/storage/layout/list:
     get:
       summary: List layout documents
@@ -371,4 +408,179 @@ paths:
       - List
       - Layout
       - Documents
+  /rest/accounts/contacts/{contactId}/document/url:
+    get:
+      summary: Get a temporary url for a single document
+      description: Get a temporary url for a single document.
+      operationId: getRestAccountsContactsContactDocumentUrl
+      x-api-path-slug: restaccountscontactscontactiddocumenturl-get
+      parameters:
+      - in: path
+        name: contactId
+      - in: query
+        name: key
+        description: The storage key to get temporary url for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Temporary
+      - Urla
+      - Single
+      - Document
+  /rest/categories/{categoryId}/documents/{documentId}:
+    delete:
+      summary: Deletes a category document. The ID of the document must be specified.
+      description: Deletes a category document. the id of the document must be specified..
+      operationId: deleteRestCategoriesCategoryDocumentsDocument
+      x-api-path-slug: restcategoriescategoryiddocumentsdocumentid-delete
+      parameters:
+      - in: path
+        name: categoryId
+      - in: path
+        name: documentId
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - Category
+      - Document
+      - ""
+      - ID
+      - Of
+      - Document
+      - Must
+      - Be
+      - Specified
+  /rest/customer_contracts/{contractId}/document:
+    get:
+      summary: Starts download of contract document
+      description: Starts download of contract document.
+      operationId: getRestCustomerContractsContractDocument
+      x-api-path-slug: restcustomer-contractscontractiddocument-get
+      parameters:
+      - in: path
+        name: contractId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Starts
+      - Download
+      - Of
+      - Contract
+      - Document
+  /rest/customer_contracts/{contractId}/sign/document:
+    get:
+      summary: Starts download of signed contract document
+      description: Starts download of signed contract document.
+      operationId: getRestCustomerContractsContractSignDocument
+      x-api-path-slug: restcustomer-contractscontractidsigndocument-get
+      parameters:
+      - in: path
+        name: contractId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Starts
+      - Download
+      - Of
+      - Signed
+      - Contract
+      - Document
+  /rest/documents/{documentId}:
+    get:
+      summary: Download the content of a document
+      description: Downloads the content of a document. The ID of the document must
+        be specified.
+      operationId: getRestDocumentsDocument
+      x-api-path-slug: restdocumentsdocumentid-get
+      parameters:
+      - in: path
+        name: documentId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Download
+      - Content
+      - Of
+      - Document
+  /rest/orders/documents/accounting_summary:
+    get:
+      summary: List document accounting summaries
+      description: Lists document accounting summaries. A document accounting summary
+        is saved along with each reversal document (for invoice and credit note).
+        It contains accounting information about the order for this point in time.
+        The summary is saved because an order can be updated after a reversal_document
+        is generated. The information about the order before the update is needed
+        for accounting.
+      operationId: getRestOrdersDocumentsAccountingSummary
+      x-api-path-slug: restordersdocumentsaccounting-summary-get
+      parameters:
+      - in: query
+        name: createdAtFrom
+        description: Get entries with createdAt date after this date
+      - in: query
+        name: createdAtTo
+        description: Get entries with createdAt date before this date
+      - in: query
+        name: documentType
+        description: The document type
+      - in: query
+        name: itemsPerPage
+        description: The number of summaries to be displayed per page
+      - in: query
+        name: orderId
+        description: The ID of the order
+      - in: query
+        name: page
+        description: The page to get
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - Document
+      - Accounting
+      - Summaries
+  /rest/storage/frontend/object-url:
+    get:
+      summary: Get the URL for a layout document
+      description: Gets the URL of a layout document. The storage key must be specified.
+        The returned URL expires after 10 minutes.
+      operationId: getRestStorageFrontendObjectUrl
+      x-api-path-slug: reststoragefrontendobjecturl-get
+      parameters:
+      - in: query
+        name: key
+        description: The storage key for the frontend document to retrieve the URL
+          for
+      responses:
+        200:
+          description: OK
+      tags:
+      - URLa
+      - Layout
+      - Document
+  /rest/storage/layout/object-url:
+    get:
+      summary: Get the URL for a layout document
+      description: Gets the URL of a layout document. The storage key must be specified.
+        The returned URL expires after 10 minutes.
+      operationId: getRestStorageLayoutObjectUrl
+      x-api-path-slug: reststoragelayoutobjecturl-get
+      parameters:
+      - in: query
+        name: key
+        description: The storage key for the layout document to retrieve the URL for
+      responses:
+        200:
+          description: OK
+      tags:
+      - URLa
+      - Layout
+      - Document
 ---

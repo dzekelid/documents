@@ -15,24 +15,22 @@ produces:
 consumes:
 - application/json
 paths:
-  /DocumentSimilarity.json:
+  /AdultContentDetection.json:
     post:
-      summary: Estimates the similarity between 2 Documents
-      description: The Document Similarity function estimates the degree of similarity
-        between two documents. It can be used to detect duplicate webpages or detect
-        plagiarism.
-      operationId: DocumentSimilarity
-      x-api-path-slug: documentsimilarity-json-post
+      summary: Classifies the Document as adult or noadult
+      description: The Adult Content Detection function classifies the documents as
+        adult or noadult based on their context. It can be used to detect whether
+        a document contains content unsuitable for minors.
+      operationId: AdultContentDetection
+      x-api-path-slug: adultcontentdetection-json-post
       parameters:
       - in: formData
-        name: copy
-        description: The second text
-      - in: formData
-        name: original
-        description: The first text
+        name: text
+        description: The text that you want to analyze
       responses:
         200:
           description: OK
       tags:
-      - DocumentsSimilarity
+      - Adult Content
+      - Detection
 ---

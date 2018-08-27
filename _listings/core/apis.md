@@ -10,26 +10,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/core/apis.md
 specificationVersion: "0.14"
-apis:
-- name: CORE
-  x-api-slug: core
-  description: CORE (COnnecting REpositories) facilitates free access to scholarly
-    articles aggregated from Open Access repositories. Additionally, CORE harvests,
-    enriches, and makes accessible metadata and full-text PDF content from many repositories.
-    The CORE API provides developer access to this metadata and text. The API is accessed
-    via HTTP GET and POST calls, requires an API Key, and returns XML or JSON formatted
-    responses.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-tika-logo.png
-  humanURL: http://core.kmi.open.ac.uk/intro/api
-  baseURL: https:///
-  tags: Documents
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/core/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://core.kmi.open.ac.uk/intro/api

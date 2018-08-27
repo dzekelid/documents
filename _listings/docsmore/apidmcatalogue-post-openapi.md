@@ -45,6 +45,34 @@ paths:
       - Your
       - Team
       - Catalogue
+  /api/clientdocs/getrawdata/:authToken/:documentKey:
+    get:
+      summary: Get Raw Data For A Given Document
+      description: |-
+        This API call gets you underlying raw data of the document. All you need to do is supply Auth token and Document Key as part of the call.
+
+        Document Key can be obtained from "Document Gallery" Page and Clicking on the sub-menu of the desired document.
+
+        As a response object, jsondata and metadata information is passed. Jsondata is basically raw data and metadata is data columns information.
+      operationId: ApiClientdocsGetrawdataAuthTokenDocumentKeyGet
+      x-api-path-slug: apiclientdocsgetrawdataauthtokendocumentkey-get
+      parameters:
+      - in: header
+        name: Accept
+      - in: query
+        name: authToken
+      - in: header
+        name: Content-Type
+      - in: query
+        name: documentKey
+      responses:
+        200:
+          description: OK
+      tags:
+      - Raw
+      - Data
+      - Given
+      - Document
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
