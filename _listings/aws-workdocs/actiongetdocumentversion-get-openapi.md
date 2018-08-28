@@ -148,6 +148,74 @@ paths:
           description: OK
       tags:
       - Documents
+  /?Action=InitiateDocumentVersionUpload:
+    get:
+      summary: Initiate Document Version Upload
+      description: Creates a new document object and version object.
+      operationId: initiateDocumentVersionUpload
+      x-api-path-slug: actioninitiatedocumentversionupload-get
+      parameters:
+      - in: query
+        name: ContentType
+        description: The content type of the document
+        type: string
+      - in: query
+        name: DocumentSizeInBytes
+        description: The size of the document, in bytes
+        type: string
+      - in: query
+        name: Id
+        description: The ID of the document
+        type: string
+      - in: query
+        name: Name
+        description: The name of the document
+        type: string
+      - in: query
+        name: ParentFolderId
+        description: The ID of the parent folder
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+  /?Action=UpdateDocument:
+    get:
+      summary: Update Document
+      description: Updates the specified attributes of the specified document.
+      operationId: updateDocument
+      x-api-path-slug: actionupdatedocument-get
+      parameters:
+      - in: query
+        name: DocumentId
+        description: The ID of the document
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+  /?Action=UpdateDocumentVersion:
+    get:
+      summary: Update Document Version
+      description: Changes the status of the document version to ACTIVE.
+      operationId: updateDocumentVersion
+      x-api-path-slug: actionupdatedocumentversion-get
+      parameters:
+      - in: query
+        name: DocumentId
+        description: The ID of the document
+        type: string
+      - in: query
+        name: VersionId
+        description: The version ID of the document
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

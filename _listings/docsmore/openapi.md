@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Docsmore
 x-complete: 1
@@ -136,4 +135,23 @@ paths:
       - Link
       - Flow
       - Track
----
+  /getclientdocs:
+    post:
+      summary: Get List of Client Documents By Document ID
+      description: In order to export as PDf, you will need to have client document
+        ID available for that specific document you are looking to download.
+      operationId: GetclientdocsPost
+      x-api-path-slug: getclientdocs-post
+      parameters:
+      - in: header
+        name: Content-Type
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - Of
+      - Client
+      - Documents
+      - Document
+      - ID

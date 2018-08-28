@@ -16,8 +16,8 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/apis.md
 specificationVersion: "0.14"
 apis:
@@ -89,6 +89,74 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidxmlsearchsearchstring-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidxmlsearchsearchstring-get-openapi.md
+- name: BC Laws - Retrieves a specific document from the BCLaws legislative repository
+    with search text highlighted (XML format)
+  x-api-slug: documentidaspectidcivixindexidcivixdocumentidxmlsearchsearchstring-get
+  description: 'The /document API allows you to retrieve actual documents from the
+    BCLaws legislative repository. To retrieve a document from the repository you
+    need the aspect identifier and two other specific pieces of information about
+    the document: the index identifier and the document identifier. These unique identifiers
+    can be retrieved from the /content API.'
+  image: ""
+  humanURL: http://bclaws.ca
+  baseURL: https://www.bclaws.ca//civix
+  tags: Laws, State Government, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidxmlsearchsearchstring-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidxmlsearchsearchstring-get-openapi.md
+- name: BC Laws - Retrieves a specific document from the BCLaws legislative repository
+    (XML format)
+  x-api-slug: documentidaspectidcivixindexidcivixdocumentidxml-get
+  description: 'The /document API allows you to retrieve actual documents from the
+    BCLaws legislative repository. To retrieve a document from the repository you
+    need the aspect identifier and two other specific pieces of information about
+    the document: the index identifier and the document identifier. These unique identifiers
+    can be retrieved from the /content API.'
+  image: ""
+  humanURL: http://bclaws.ca
+  baseURL: https://www.bclaws.ca//civix
+  tags: Laws, State Government, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidxml-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidxml-get-openapi.md
+- name: BC Laws - Retrieves a specific document from the BCLaws legislative repository
+    with search text highlighted (HTML format)
+  x-api-slug: documentidaspectidcivixindexidcivixdocumentidsearchsearchstring-get
+  description: 'The /document API allows you to retrieve actual documents from the
+    BCLaws legislative repository. To retrieve a document from the repository you
+    need the aspect identifier and two other specific pieces of information about
+    the document: the index identifier and the document identifier. These unique identifiers
+    can be retrieved from the /content API.'
+  image: ""
+  humanURL: http://bclaws.ca
+  baseURL: https://www.bclaws.ca//civix
+  tags: Laws, State Government, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidsearchsearchstring-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentidsearchsearchstring-get-openapi.md
+- name: BC Laws - Retrieves a specific document from the BCLaws legislative repository
+    (HTML format)
+  x-api-slug: documentidaspectidcivixindexidcivixdocumentid-get
+  description: 'The /document API allows you to retrieve actual documents from the
+    BCLaws legislative repository. To retrieve a document from the repository you
+    need the aspect identifier and two other specific pieces of information about
+    the document: the index identifier and the document identifier. These unique identifiers
+    can be retrieved from the /content API.'
+  image: ""
+  humanURL: http://bclaws.ca
+  baseURL: https://www.bclaws.ca//civix
+  tags: Laws, State Government, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/documentidaspectidcivixindexidcivixdocumentid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bc.geographical.names.api.gallery.streamdata.io

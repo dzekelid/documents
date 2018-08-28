@@ -10,11 +10,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS CloudSearch - Search Documents
+  x-api-slug: 20130101documentsbatch-get
+  description: You use the document service API to add, replace, or delete documents
+    in your Amazon CloudSearch domain. For more information managing the documents
+    in your search domain, see Uploading Data to an Amazon CloudSearch Domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/20130101documentsbatch-get-openapi.md
 - name: AWS CloudSearch - Index Documents
   x-api-slug: actionindexdocuments-get
   description: Tells the search domain to start indexing its documents using the latest
@@ -29,6 +42,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/actionindexdocuments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/actionindexdocuments-get-openapi.md
+- name: AWS CloudSearch - Search Documents
+  x-api-slug: 20130101documentsbatch-get
+  description: You use the document service API to add, replace, or delete documents
+    in your Amazon CloudSearch domain. For more information managing the documents
+    in your search domain, see Uploading Data to an Amazon CloudSearch Domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/20130101documentsbatch-get-openapi.md
 - name: AWS CloudSearch - Index Documents
   x-api-slug: actionindexdocuments-get
   description: Tells the search domain to start indexing its documents using the latest

@@ -50,6 +50,23 @@ paths:
           description: OK
       tags:
       - Search
+  /?Action=IndexDocuments:
+    get:
+      summary: Index Documents
+      description: Tells the search domain to start indexing its documents using the
+        latest indexing options.
+      operationId: IndexDocuments
+      x-api-path-slug: actionindexdocuments-get
+      parameters:
+      - in: query
+        name: DomainName
+        description: A string that represents the name of a domain
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Index Documents
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

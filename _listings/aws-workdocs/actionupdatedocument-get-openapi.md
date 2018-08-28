@@ -196,6 +196,26 @@ paths:
           description: OK
       tags:
       - Documents
+  /?Action=UpdateDocumentVersion:
+    get:
+      summary: Update Document Version
+      description: Changes the status of the document version to ACTIVE.
+      operationId: updateDocumentVersion
+      x-api-path-slug: actionupdatedocumentversion-get
+      parameters:
+      - in: query
+        name: DocumentId
+        description: The ID of the document
+        type: string
+      - in: query
+        name: VersionId
+        description: The version ID of the document
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

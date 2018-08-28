@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1166-sprin
 x-kinRank: "7"
 x-alexaRank: "164020"
 tags: Documents
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/springcm/apis.md
 specificationVersion: "0.14"
 apis: []

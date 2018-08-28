@@ -2043,6 +2043,25 @@ paths:
       - From
       - Tenancy
       - Role
+  /api/admin/system/updateDocumentGenerationMetadataFile:
+    post:
+      summary: Updates the metadata for document generation merge fields
+      description: Updates the metadata for document generation merge fields.
+      operationId: System_UpdateDocumentGenerationMetadataFile
+      x-api-path-slug: apiadminsystemupdatedocumentgenerationmetadatafile-post
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - Metadatadocument
+      - Generation
+      - Merge
+      - Fields
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

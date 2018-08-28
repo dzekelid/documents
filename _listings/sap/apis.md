@@ -7,11 +7,151 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-
 x-kinRank: "8"
 x-alexaRank: "1965"
 tags: Documents
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Manufacturing Network Customer APIs - Retrieves documents in a collaboration
+    room
+  x-api-slug: collaborationroomscollaborationroomiddocuments-get
+  description: Retrieves the information of all documents in a collaboration room,
+    such as design files and specifications.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocuments-get-openapi.md
+- name: Manufacturing Network Customer APIs - Retrieves a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-get
+  description: Retrieves the information of a document by its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-get-openapi.md
+- name: Manufacturing Network Customer APIs - Deletes a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-delete
+  description: "Deletes a document.  \nThe login user must be the one who uploaded
+    the file."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-delete-openapi.md
+- name: Manufacturing Network Customer APIs - Deletes a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-delete
+  description: "Deletes a document.  \nThe login user must be the one who uploaded
+    the file."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-delete-openapi.md
+- name: Manufacturing Network Customer APIs - Deletes a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-delete
+  description: "Deletes a document.  \nThe login user must be the one who uploaded
+    the file."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-delete-openapi.md
+- name: Manufacturing Network Customer APIs - Retrieves a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-get
+  description: Retrieves the information of a document by its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-get-openapi.md
+- name: Manufacturing Network Partner APIs - Retrieves documents in a collaboration
+    room
+  x-api-slug: collaborationroomscollaborationroomiddocuments-get
+  description: Retrieves the information of all documents in a collaboration room,
+    such as design files and specifications.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocuments-get-openapi.md
+- name: Manufacturing Network Partner APIs - Retrieves a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-get
+  description: Retrieves the information of a document by its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-get-openapi.md
+- name: Manufacturing Network Partner APIs - Deletes a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-delete
+  description: "Deletes a document.  \nThe login technical user must be the one who
+    uploaded the document."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-delete-openapi.md
+- name: Manufacturing Network Partner APIs - Deletes a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-delete
+  description: "Deletes a document.  \nThe login technical user must be the one who
+    uploaded the document."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-delete-openapi.md
+- name: Manufacturing Network Partner APIs - Deletes a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-delete
+  description: "Deletes a document.  \nThe login technical user must be the one who
+    uploaded the document."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-delete-openapi.md
+- name: Manufacturing Network Partner APIs - Retrieves a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-get
+  description: Retrieves the information of a document by its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-get-openapi.md
+- name: Manufacturing Network Partner APIs - Retrieves a document
+  x-api-slug: collaborationroomscollaborationroomiddocumentsfileid-get
+  description: Retrieves the information of a document by its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/collaborationroomscollaborationroomiddocumentsfileid-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.sap.com/index.html

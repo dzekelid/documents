@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Documents
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,6 +30,136 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/filesrootpath-get-openapi.md
+- name: Dropbox Content API v1 - Uploads a file using PUT semantics.
+  x-api-slug: files-putrootpath-post
+  description: |-
+    Uploads a file using PUT semantics.
+
+    The preferred HTTP method for this call is **PUT**. For compatibility with browser environments, the **POST**
+    HTTP method is also recognized.
+
+    **Note:** Providing a `Content-Length` header set to the size of the uploaded file is required so that the
+    server can verify that it has received the entire file contents.
+
+    **Note:** `/files_put` has a maximum file size limit of 150 MB and does not support uploads with chunked
+    encoding. To upload larger files, use [/chunked_upload](https://www.dropbox.com/developers/core/docs#chunked-upload)
+    instead.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-post-openapi.md
+- name: Dropbox Content API v1 - Uploads a file using PUT semantics.
+  x-api-slug: files-putrootpath-put
+  description: |-
+    Uploads a file using PUT semantics.
+
+    The preferred HTTP method for this call is **PUT**. For compatibility with browser environments, the **POST**
+    HTTP method is also recognized.
+
+    **Note:** Providing a `Content-Length` header set to the size of the uploaded file is required so that the
+    server can verify that it has received the entire file contents.
+
+    **Note:** `/files_put` has a maximum file size limit of 150 MB and does not support uploads with chunked
+    encoding. To upload larger files, use [/chunked_upload](https://www.dropbox.com/developers/core/docs#chunked-upload)
+    instead.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/files-putrootpath-put-openapi.md
+- name: Dropbox Content API v1 - Gets a thumbnail for an image.
+  x-api-slug: thumbnailsrootpath-get
+  description: |-
+    Gets a thumbnail for an image.
+
+    This method currently supports files with the following file extensions: .jpg, .jpeg, .png, .tiff, .tif, .gif, .bmp
+
+    Photos that are larger than 20MB in size won't be converted to a thumbnail.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/thumbnailsrootpath-get-openapi.md
+- name: Dropbox Content API v1 - Gets a preview for a file.
+  x-api-slug: previewsrootpath-get
+  description: |-
+    Gets a preview for a file.
+
+    Previews are only generated for the files with the following extensions: .doc, .docx, .docm, .ppt, .pps,
+    .ppsx, .ppsm, .pptx, .pptm, .xls, .xlsx, .xlsm, .rtf
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/previewsrootpath-get-openapi.md
+- name: Dropbox Content API v1 - Uploads large files to Dropbox in multiple chunks.
+  x-api-slug: chunked-upload-put
+  description: |-
+    Uploads large files to Dropbox in multiple chunks. Also has the ability to resume if the upload is interrupted.
+    This allows for uploads larger than the `/files_put` maximum of 150 MB.
+
+    Typical usage:
+      1. Send a PUT request to `/chunked_upload` with the first chunk of the file without setting `upload_id`, and
+      receive an `upload_id` in return.
+      2. Repeatedly `PUT` subsequent chunks using the `upload_id` to identify the upload in progress and an `offset`
+      representing the number of bytes transferred so far.
+      3. After each chunk has been uploaded, the server returns a new offset representing the total amount transferred.
+      4. After the last chunk, `POST` to `/commit_chunked_upload` to complete the upload.
+
+    Chunks can be any size up to 150 MB. A typical chunk is 4 MB. Using large chunks will mean fewer calls
+    to `/chunked_upload` and faster overall throughput. However, whenever a transfer is interrupted, you will
+    have to resume at the beginning of the last chunk, so it is often safer to use smaller chunks.
+
+    If the offset you submit does not match the expected offset on the server, the server will ignore the request
+    and respond with a 400 error that includes the current offset. To resume upload, seek to the correct offset
+    (in bytes) within the file and then resume uploading from that point.
+
+    A chunked upload can take a maximum of 48 hours before expiring.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/chunked-upload-put-openapi.md
+- name: Dropbox Content API v1 - Completes an upload initiated by the chunked upload
+    method.
+  x-api-slug: commit-chunked-uploadrootpath-post
+  description: |-
+    Completes an upload initiated by the `/chunked_upload` method. Saves a file uploaded via `/chunked_upload` to
+    a user's Dropbox.
+
+    `/commit_chunked_upload` is similar to `/files_put`. The main difference is that while `/files_put` takes the
+    file contents in the request body, `/commit_chunked_upload` takes a parameter `upload_id`, which is obtained
+    when the file contents are uploaded via `/chunked_upload`.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/commit-chunked-uploadrootpath-post-openapi.md
 - name: Dropbox Core API v1 - Convert OAuth 1 token to OAuth 2 token.
   x-api-slug: oauth2token-from-oauth1-post
   description: |-

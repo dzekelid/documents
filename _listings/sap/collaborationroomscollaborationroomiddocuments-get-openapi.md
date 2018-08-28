@@ -37,6 +37,44 @@ paths:
       - In
       - Collaboration
       - Room
+  /collaborationRooms/{collaborationRoomId}/documents/{fileId}:
+    get:
+      summary: Retrieves a document
+      description: Retrieves the information of a document by its ID.
+      operationId: retrieves-the-information-of-a-document-by-its-id
+      x-api-path-slug: collaborationroomscollaborationroomiddocumentsfileid-get
+      parameters:
+      - in: path
+        name: collaborationRoomId
+        description: The ID of a collaboration room
+      - in: path
+        name: fileId
+        description: The ID of a file
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Retrieves
+      - Document
+    delete:
+      summary: Deletes a document
+      description: "Deletes a document.  \nThe login user must be the one who uploaded
+        the file."
+      operationId: deletes-a-document--the-login-user-must-be-the-one-who-uploaded-the-file
+      x-api-path-slug: collaborationroomscollaborationroomiddocumentsfileid-delete
+      parameters:
+      - in: path
+        name: collaborationRoomId
+        description: The ID of a collaboration room
+      - in: path
+        name: fileId
+        description: The ID of a file
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - S
+      - Document
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Logicbroker
 x-complete: 1
@@ -66,4 +65,37 @@ paths:
       - Execute
       - Custom
       - Handler
----
+  /api/v1/Statuses/{documentType}:
+    get:
+      summary: Get configured document statuses for each document
+      description: Request rate limited to 10 requests per second with bursts up to
+        100 requests.
+      operationId: Status_GetDocumentStatusesByType
+      x-api-path-slug: apiv1statusesdocumenttype-get
+      parameters:
+      - in: path
+        name: documentType
+        description: Document type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configured
+      - Document
+      - Statuseseach
+      - Document
+  /api/v1/Statuses:
+    get:
+      summary: Get configured document statuses for each document
+      description: Request rate limited to 10 requests per second with bursts up to
+        100 requests.
+      operationId: Status_GetDocumentStatuses
+      x-api-path-slug: apiv1statuses-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Configured
+      - Document
+      - Statuseseach
+      - Document

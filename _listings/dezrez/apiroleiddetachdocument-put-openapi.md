@@ -1733,6 +1733,335 @@ paths:
       - Document
       - From
       - Role
+  /api/role/{id}/uploadandattachdocument:
+    post:
+      summary: Allows you to upload a document and attach it directly to a role.
+      description: Allows you to upload a document and attach it directly to a role..
+      operationId: Role_UploadAndAttachDocumentByidBydocumentDetailsContract
+      x-api-path-slug: apiroleiduploadandattachdocument-post
+      parameters:
+      - in: body
+        name: documentDetailsContract
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: The role Id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Allows
+      - You
+      - To
+      - Upload
+      - Document
+      - Attach
+      - It
+      - Directly
+      - To
+      - Role
+  /api/role/{id}/attachexternaldocument:
+    post:
+      summary: Attaches an externally hosted document to a role
+      description: Attaches an externally hosted document to a role.
+      operationId: Role_AttachExternalDocumentByidBydocumentDetails
+      x-api-path-slug: apiroleidattachexternaldocument-post
+      parameters:
+      - in: body
+        name: documentDetails
+        description: Details of the document to associate
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: The role Id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attaches
+      - Externally
+      - Hosted
+      - Document
+      - To
+      - Role
+  /api/roomdescription/{id}/attachexternaldocumenttoroom:
+    put:
+      summary: Attaches an externally hosted document to a room within a room description.
+      description: Attaches an externally hosted document to a room within a room
+        description..
+      operationId: RoomDescription_AttachExternalDocumentToRoomByidByexternalDocumentByroomId
+      x-api-path-slug: apiroomdescriptionidattachexternaldocumenttoroom-put
+      parameters:
+      - in: body
+        name: externalDocument
+        description: Details of the external document
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: The RoomDescriptionId
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: roomId
+        description: The room identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attaches
+      - Externally
+      - Hosted
+      - Document
+      - To
+      - Room
+      - Within
+      - Room
+      - Description
+  /api/roomdescription/{id}/uploadandattachdocumenttoroom:
+    put:
+      summary: Uploads and attaches a document to room description room - the new
+        document is appended to the current list.
+      description: Uploads and attaches a document to room description room - the
+        new document is appended to the current list..
+      operationId: RoomDescription_UploadAndAttachDocumentToRoomByidByroomIdBydocumentDetails
+      x-api-path-slug: apiroomdescriptioniduploadandattachdocumenttoroom-put
+      parameters:
+      - in: body
+        name: documentDetails
+        description: Details about the document
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: The room description Id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: roomId
+        description: The roomId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Uploads
+      - Attaches
+      - Document
+      - To
+      - Room
+      - Description
+      - Room
+      - '-'
+      - New
+      - Document
+      - Is
+      - Appended
+      - To
+      - Current
+      - List
+  /api/roomdescription/{id}/attachdocumentoroom:
+    put:
+      summary: Attaches the document to room.
+      description: Attaches the document to room..
+      operationId: RoomDescription_AttachDocumentToRoomByidBydocumentIdByroomIdByinsertAtIndex
+      x-api-path-slug: apiroomdescriptionidattachdocumentoroom-put
+      parameters:
+      - in: query
+        name: documentId
+        description: The document identifier
+      - in: path
+        name: id
+        description: The identifier
+      - in: query
+        name: insertAtIndex
+        description: Index of the insert at
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: roomId
+        description: The room identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attaches
+      - Document
+      - To
+      - Room
+  /api/roomdescription/{id}/detachdocumentfromroom:
+    put:
+      summary: Detaches a document from a room description room.
+      description: Detaches a document from a room description room..
+      operationId: RoomDescription_DetachDocumentFromRoomByidBydocumentIdByroomId
+      x-api-path-slug: apiroomdescriptioniddetachdocumentfromroom-put
+      parameters:
+      - in: query
+        name: documentId
+        description: The document Id
+      - in: path
+        name: id
+        description: The room description Id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: roomId
+        description: The room Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Detaches
+      - Document
+      - From
+      - Room
+      - Description
+      - Room
+  /api/stationary/html/{brandId}:
+    get:
+      summary: "Does a simple merge of the selected envelopeTemplatePack using the
+        data supplied\r\nwill only use certain merge functions, and the correspondence
+        can only contain one envelope and the envelope can only contain one document."
+      description: "Does a simple merge of the selected envelopetemplatepack using
+        the data supplied\r\nwill only use certain merge functions, and the correspondence
+        can only contain one envelope and the envelope can only contain one document.."
+      operationId: Stationary_HtmlStationaryBybrandId
+      x-api-path-slug: apistationaryhtmlbrandid-get
+      parameters:
+      - in: path
+        name: brandId
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Does
+      - Simple
+      - Merge
+      - Of
+      - Selected
+      - EnvelopeTemplatePack
+      - Using
+      - Data
+      - "Supplied\r\nWill"
+      - Only
+      - Use
+      - Certain
+      - Merge
+      - Functions
+      - ""
+      - Correspondence
+      - Can
+      - Only
+      - Contain
+      - Envelope
+      - Envelope
+      - Can
+      - Only
+      - Contain
+      - Document
+  /api/stationary/sms/{brandId}:
+    get:
+      summary: "Does a simple merge of the selected envelopeTemplatePack using the
+        data supplied\r\nwill only use certain merge functions, and the correspondence
+        can only contain one envelope and the envelope can only contain one document."
+      description: "Does a simple merge of the selected envelopetemplatepack using
+        the data supplied\r\nwill only use certain merge functions, and the correspondence
+        can only contain one envelope and the envelope can only contain one document.."
+      operationId: Stationary_SmsStationaryBybrandId
+      x-api-path-slug: apistationarysmsbrandid-get
+      parameters:
+      - in: path
+        name: brandId
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Does
+      - Simple
+      - Merge
+      - Of
+      - Selected
+      - EnvelopeTemplatePack
+      - Using
+      - Data
+      - "Supplied\r\nWill"
+      - Only
+      - Use
+      - Certain
+      - Merge
+      - Functions
+      - ""
+      - Correspondence
+      - Can
+      - Only
+      - Contain
+      - Envelope
+      - Envelope
+      - Can
+      - Only
+      - Contain
+      - Document
+  /api/tenancy/{id}/detachdocument:
+    put:
+      summary: Detaches a document from a tenancy role
+      description: Detaches a document from a tenancy role.
+      operationId: Tenancy_DetachDocumentByidBydocumentId
+      x-api-path-slug: apitenancyiddetachdocument-put
+      parameters:
+      - in: query
+        name: documentId
+        description: The id of the document to detach
+      - in: path
+        name: id
+        description: The id of the role to detach the document from
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Detaches
+      - Document
+      - From
+      - Tenancy
+      - Role
+  /api/admin/system/updateDocumentGenerationMetadataFile:
+    post:
+      summary: Updates the metadata for document generation merge fields
+      description: Updates the metadata for document generation merge fields.
+      operationId: System_UpdateDocumentGenerationMetadataFile
+      x-api-path-slug: apiadminsystemupdatedocumentgenerationmetadatafile-post
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - Metadatadocument
+      - Generation
+      - Merge
+      - Fields
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

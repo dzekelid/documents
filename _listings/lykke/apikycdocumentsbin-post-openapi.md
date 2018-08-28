@@ -83,6 +83,27 @@ paths:
           description: OK
       tags:
       - Kycdocumentsbin
+  /api/KycDocumentsBin/{id}:
+    get:
+      summary: Get API Kycdocumentsbin
+      description: Get api kycdocumentsbin.
+      operationId: ApiKycDocumentsBinByIdGet
+      x-api-path-slug: apikycdocumentsbinid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: query
+        name: height
+      - in: path
+        name: id
+      - in: query
+        name: width
+      responses:
+        200:
+          description: OK
+      tags:
+      - Kycdocumentsbin
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

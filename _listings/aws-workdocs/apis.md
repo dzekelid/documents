@@ -19,11 +19,213 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS WorkDocs API - Abort Document Version Upload
+  x-api-slug: actionabortdocumentversionupload-get
+  description: Aborts the upload of the specified document version that was previously
+    initiated by.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+- name: AWS WorkDocs API - Delete Document
+  x-api-slug: actiondeletedocument-get
+  description: Permanently deletes the specified document and its associated metadata.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+- name: AWS WorkDocs API - Describe Document Versions
+  x-api-slug: actiondescribedocumentversions-get
+  description: Retrieves the document versions for the specified document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
+- name: AWS WorkDocs API - Get Document
+  x-api-slug: actiongetdocument-get
+  description: Retrieves the specified document object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
+- name: AWS WorkDocs API - Get Document Path
+  x-api-slug: actiongetdocumentpath-get
+  description: Retrieves the path information (the hierarchy from the root folder)
+    for the requested document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentpath-get-openapi.md
+- name: AWS WorkDocs API - Get Document Version
+  x-api-slug: actiongetdocumentversion-get
+  description: Retrieves version metadata for the specified document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentversion-get-openapi.md
+- name: AWS WorkDocs API - Initiate Document Version Upload
+  x-api-slug: actioninitiatedocumentversionupload-get
+  description: Creates a new document object and version object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actioninitiatedocumentversionupload-get-openapi.md
+- name: AWS WorkDocs API - Update Document
+  x-api-slug: actionupdatedocument-get
+  description: Updates the specified attributes of the specified document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionupdatedocument-get-openapi.md
+- name: AWS WorkDocs API - Update Document Version
+  x-api-slug: actionupdatedocumentversion-get
+  description: Changes the status of the document version to ACTIVE.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionupdatedocumentversion-get-openapi.md
+- name: AWS WorkDocs API - Abort Document Version Upload
+  x-api-slug: actionabortdocumentversionupload-get
+  description: Aborts the upload of the specified document version that was previously
+    initiated by.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionabortdocumentversionupload-get-openapi.md
+- name: AWS WorkDocs API - Delete Document
+  x-api-slug: actiondeletedocument-get
+  description: Permanently deletes the specified document and its associated metadata.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondeletedocument-get-openapi.md
+- name: AWS WorkDocs API - Describe Document Versions
+  x-api-slug: actiondescribedocumentversions-get
+  description: Retrieves the document versions for the specified document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiondescribedocumentversions-get-openapi.md
+- name: AWS WorkDocs API - Get Document
+  x-api-slug: actiongetdocument-get
+  description: Retrieves the specified document object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocument-get-openapi.md
+- name: AWS WorkDocs API - Get Document Path
+  x-api-slug: actiongetdocumentpath-get
+  description: Retrieves the path information (the hierarchy from the root folder)
+    for the requested document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentpath-get-openapi.md
+- name: AWS WorkDocs API - Get Document Version
+  x-api-slug: actiongetdocumentversion-get
+  description: Retrieves version metadata for the specified document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actiongetdocumentversion-get-openapi.md
+- name: AWS WorkDocs API - Initiate Document Version Upload
+  x-api-slug: actioninitiatedocumentversionupload-get
+  description: Creates a new document object and version object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actioninitiatedocumentversionupload-get-openapi.md
+- name: AWS WorkDocs API - Update Document
+  x-api-slug: actionupdatedocument-get
+  description: Updates the specified attributes of the specified document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionupdatedocument-get-openapi.md
+- name: AWS WorkDocs API - Update Document Version
+  x-api-slug: actionupdatedocumentversion-get
+  description: Changes the status of the document version to ACTIVE.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/actionupdatedocumentversion-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.waf.api.gallery.streamdata.io

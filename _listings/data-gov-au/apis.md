@@ -27,11 +27,24 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Documents
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Regulations.gov - Returns Document information
+  x-api-slug: document-response-format-get
+  description: Returns document information.
+  image: ""
+  humanURL: http://data.gov.au/
+  baseURL: https://api.data.gov//regulations/v3
+  tags: Australia, Datasets, Government, Australian Government, Data Provider, API
+    Provider, Australian Government, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/document-response-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/document-response-format-get-openapi.md
 - name: Regulations.gov - Returns Document information
   x-api-slug: document-response-format-get
   description: Returns document information.

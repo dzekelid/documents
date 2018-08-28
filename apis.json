@@ -1,0 +1,831 @@
+{
+	"name": "Streadata.io API Gallery - Documents",
+	"description": "This is a repository of documents APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/documents.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://documents.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AT&T Dev Program",
+			"x-api-slug": "att-dev-program",
+			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg",
+			"humanURL": "http://att.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DocuSign",
+			"x-api-slug": "docusign",
+			"description": "Why settle for less? Get the security, mobility, reliability, and ease of use you need to digitally transform your business, with DocuSign eSignature solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/183-docusign.jpg",
+			"humanURL": "http://www.docusign.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docusign/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dropbox",
+			"x-api-slug": "dropbox",
+			"description": "Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg",
+			"humanURL": "http://dropbox.com",
+			"baseURL": "https://api-notify.dropbox.com//1",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ABBYY",
+			"x-api-slug": "abbyy",
+			"description": "ABBYY is a leading provider of document conversion, data capture, and linguistic software and services. The key areas of ABBYY???s research and development include document recognition and linguistic technologies. ABBYY???s recognition technologies and products help people manage the increasing amount of information delivering powerful instruments which enable them to: unlock information from paper and images, automatically acquire data, and process and store valuable information. Using recognition and data capture products, people save money and effort typically spent on data entry, and benefit from the ability to access information in new, more efficient ways. Our linguistic products help break down language barriers, facilitating easier and clearer communication.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/298-abbyy-cloud-ocr-sdk.jpg",
+			"humanURL": "http://ocrsdk.com/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/abbyy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ConvertAPI",
+			"x-api-slug": "convertapi",
+			"description": "Create PDF easily with our developers API/SDK for Ruby Java .NET C# PHP Shell Delphi.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/357-convertapi.jpg",
+			"humanURL": "http://www.convertapi.com/",
+			"baseURL": "https://do.convertapi.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/convertapi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "pdfcrowd",
+			"x-api-slug": "pdfcrowd",
+			"description": "Pdfcrowd is a Web/HTML to  PDF online service. Convert HTML to PDF online in the browser or in your PHP,  Python, Ruby, .NET, Java apps via the REST API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/453-pdfcrowd.jpg",
+			"humanURL": "http://pdfcrowd.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pdfcrowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AssureSign",
+			"x-api-slug": "assuresign",
+			"description": "AssureSign boasts both enterprise and small business solutions, offers a partner program for integration, reseller and referral partners and is the only electronic signature solution to empower all users to create and own their entire signature experie...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/547-assuresign.jpg",
+			"humanURL": "http://www.assuresign.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/assuresign/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DocRaptor",
+			"x-api-slug": "docraptor",
+			"description": "Forget tedious coding or server management: Our simple API that makes it easy to convert HTML to PDF, XLS and Excel files.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/576-docraptor.jpg",
+			"humanURL": "http://docraptor.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docraptor/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov.au",
+			"x-api-slug": "data-gov-au",
+			"description": "In a world that is becoming increasingly more visual, the ability to find and use images effectively gives communications professionals a competitive advantage. Cutcaster has tapped into a new creative universe of unique photos and vector illustrations that can be purchased royalty free for use in publishing, web design project, printing brochures, advertising, corporate marketing, electronic usage on websites and presentations. Cutcaster is the first model that adds a dynamic marketplace structure to support licensing user-generated photography and vectors. If you don&#8217;t have the budget or time to create the content yourself and want to find the most original, highest quality and authentic content not previously available to license and within your budget, then join us for free at Cutcaster.Sellers have the flexibility to set their prices or those new to the world of licensing can use the Cutcaster Algorithm to determine a fair market price for them. There are many ways to purchase photos and vectors from Cutcaster. Buyers can browse the growing Cutcaster image library, download comps, buy credits, sign up for corporate accounts, add images and vectors to their shopping cart without registering and immediately download content when they need it. In addition, buyers, if they choose, can seamlessly name their price by bidding on the photos or illustrations, which a seller can quickly accept, decline or submit a new offer back.  If we don&#8217;t have what you are looking for or you can&#8217;t find it anywhere during your search, you can request custom content and set a deadline in the ProjectRequest area on the homepage and give our amazing user-base the opportunity to &#8220;wow&#8221; you with fresh, authentic and timely content.",
+			"image": "",
+			"humanURL": "http://data.gov.au/",
+			"baseURL": "https://api.data.gov//regulations/v3",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GroupDocs",
+			"x-api-slug": "groupdocs",
+			"description": "GroupDocs offers .NET/Java libraries and cloud APIs that let you view, compare, annotate, sign and convert over 45 common document formats in your own app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1066-groupdocs.jpg",
+			"humanURL": "http://groupdocs.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/groupdocs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gumroad",
+			"x-api-slug": "gumroad",
+			"description": "Sell music, comics, software, books, and films directly to your audience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg",
+			"humanURL": "http://gumroad.com",
+			"baseURL": "https://api.gumroad.com//v2",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/gumroad/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SpringCM",
+			"x-api-slug": "springcm",
+			"description": "SpringCM delivers an innovative document workflow and management platform, powering the leading contract lifecycle management (CLM) application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1166-springcm.jpg",
+			"humanURL": "https://www.springcm.com/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/springcm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Drillster",
+			"x-api-slug": "drillster",
+			"description": "Drillster is an adaptive online learning and test application. Its unique algorithm ensures that users learn easy and retain information much better.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1562-drillster.jpg",
+			"humanURL": "http://www.drillster.com/info/api",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/drillster/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CORE",
+			"x-api-slug": "core",
+			"description": "The Apache Tika&trade; toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. You can find the latest release on the download page. See the Getting Started guide for instructions on how to start using Tika. Tika is a project of the Apache Software Foundation, and was formerly a subproject of Apache Lucene.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-tika-logo.png",
+			"humanURL": "http://core.kmi.open.ac.uk/intro/api",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/core/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rev",
+			"x-api-slug": "rev",
+			"description": "Online audio transcription, video captions and document translation services. For immigration, business, legal, academic and personal needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1846-rev.jpg",
+			"humanURL": "http://www.rev.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/rev/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aspose",
+			"x-api-slug": "aspose",
+			"description": ".NET Java Cloud SharePoint Android SSRS and JasperReports file format APIs for developers. Integrate in any enterprise level web desktop and mobile application",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg",
+			"humanURL": "http://www.aspose.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aspose/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PDFUnicorn",
+			"x-api-slug": "pdfunicorn",
+			"description": "PDFUnicorn is a web service for creating PDF files. PDF files can be created directly from source documents, or from data applied to custom templates. The markup language is intentionally simple to allow you to start creating templates and documents as quickly and easily as possible. Document content is securely sent from your server to ours enabling private customer text and images to be included without allowing remote access to your server and content. Document images can be uploaded at print quality resolutions to create the best looking documents possible.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/PDFUnicorn.png",
+			"humanURL": "https://pdfunicorn.com/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pdfunicorn/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Quip",
+			"x-api-slug": "quip",
+			"description": "Quip changes the way teams work together. Quip combines documents, spreadsheets, checklists, and chat in a simple interface that makes collaboration easy. With Quip, you work with people, not files. Thousands of companies from a wide range of industries have adopted Quip to make communication and collaboration more efficient.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/quip-logo.png",
+			"humanURL": "https://quip.com/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/quip/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datumbox",
+			"x-api-slug": "datumbox",
+			"description": "Build quickly and easily Intelligent Applications by using the power of Machine Learning!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg",
+			"humanURL": "http://datumbox.com",
+			"baseURL": "https://api.datumbox.com/1.0/",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/datumbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PandaDoc",
+			"x-api-slug": "pandadoc",
+			"description": "PandaDoc is a document automation software as a service with built-in electronic signatures, workflow management, a document builder, and CPQ functionality. PandaDoc was developed in the summer of 2013 to solve a need for salespeople and small businesses to close deals faster by gaining insight into their prospects motivations and by allowing electronic signature acceptance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pandadoc-logo.png",
+			"humanURL": "https://www.pandadoc.com",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pandadoc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MotaWord",
+			"x-api-slug": "motaword",
+			"description": "MotaWord is the world&rsquo;s fastest, lowest cost, cloud-based, collaborative business translation platform.MotaWord combines the efforts of talented human translators through the use of a cloud based translation platform. Our translators are able to login simultaneously into projects that fit their language combination and provide translation service collaboratively - while also seeing the whole content for contextual purposes. This ability to simultaneously utilize multiple translators makes MotaWord exceptionally fast and highly accurate.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png",
+			"humanURL": "http://www.motaword.com",
+			"baseURL": "https://api.motaword.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/motaword/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actual Reports",
+			"x-api-slug": "actual-reports",
+			"description": "Actual Reports is a versatile document generation platform that is a foundation for multiple segment-specific products that help companies streamline their document generation process. Our line of products enable you to automate your document creation and delivery process, saving you time and money. Our main products are Document Creator for QuickBooks Online, Printout Designer for online retailers, and Document Generation API for developers.",
+			"image": "http://actualreports.com/assets/images/logo/logo.png",
+			"humanURL": "http://actualreports.com/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/actual-reports/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Regulations.gov",
+			"x-api-slug": "regulations-gov",
+			"description": "Regulations.gov is a multi-agency website where citizens can view and comment on federal regulations and other agency actions that affect their daily lives. More than 35 federal departments and agencies participate in Regulations.gov, which is designed to encourage public involvement and citizen input.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/regulations-gov-logo.png",
+			"humanURL": "https://www.regulations.gov/",
+			"baseURL": "https://api.data.gov//regulations/v3",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/regulations-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Office 365",
+			"x-api-slug": "microsoft-office-365",
+			"description": "Integrate Office 365 REST APIs powered by Microsoft Graph into your own app to connect to files, calendars, mail and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png",
+			"humanURL": "http://office.com",
+			"baseURL": "https://outlook.office365.com//ews/odata/Me",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/microsoft-office-365/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"x-api-slug": "aws-ec2-systems-manager",
+			"description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems. These capabilities help you define and track system configurations, prevent drift, and maintain software compliance of your EC2 and on-premises configurations. By providing a management approach that is designed for the scale and agility of the cloud but extends into your on-premises data center, EC2 Systems Manager makes it easier for you to seamlessly bridge your existing infrastructure with AWS.EC2 Systems Manager is easy to use. Simply access EC2 Systems Manager from the EC2 Management Console, select the instances you want to manage, and define the management tasks you want to perform. EC2 Systems Manager is available now at no cost to manage both your EC2 and on-premises resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/systems-manager/",
+			"baseURL": ":///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-ec2-systems-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudSearch",
+			"x-api-slug": "aws-cloudsearch",
+			"description": "Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application.Amazon CloudSearch supports 34 languages and popular search features such as highlighting, autocomplete, and geospatial search. For more information, see Benefits.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png",
+			"humanURL": "https://aws.amazon.com/cloudsearch/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elasticsearch Service",
+			"x-api-slug": "aws-elasticsearch-service",
+			"description": "Amazon Elasticsearch Service makes it easy to deploy, operate, and scale Elasticsearch for log analytics, full text search, application monitoring, and more. Amazon Elasticsearch Service is a fully managed service that delivers Elasticsearch&rsquo;s easy-to-use APIs and real-time capabilities along with the availability, scalability, and security required by production workloads. The service offers built-in integrations with Kibana, Logstash, and AWS services including Amazon Kinesis Firehose, AWS Lambda, and Amazon CloudWatch so that you can go from raw data to actionable insights quickly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png",
+			"humanURL": "https://aws.amazon.com/elasticsearch-service/",
+			"baseURL": ":///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-elasticsearch-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WorkDocs",
+			"x-api-slug": "aws-workdocs",
+			"description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity.Users can comment on files, send them to others for feedback, and upload new versions without having to resort to emailing multiple versions of their files as attachments. Users can take advantage of these capabilities wherever they are, using the device of their choice, including PCs, Macs, tablets and phones. Amazon WorkDocs offers IT administrators the option of integrating with existing corporate directories, flexible sharing policies and control of the location where data is stored. Customers can get started using Amazon WorkDocs with a 30-day free trial providing 1 TB of storage per user for up to 50 users.Amazon WorkDocs offers an Administrative SDK, currently in public preview. The Administrative SDK allows you to integrate your applications with Amazon WorkDocs by performing content and permissions updates, and managing users, programmatically. You can sign-up for the public preview here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png",
+			"humanURL": "https://aws.amazon.com/workdocs/",
+			"baseURL": ":///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"x-api-slug": "google-apps-admin-sdk",
+			"description": "Administer domain resources, create reports, and manage subscriptions. Use the Directory API to create and manage users and groups for a domain, along with their aliases. Programmatically access the functionality found at the Admin console Organization and users tab. Use the Reports API to gain insights on content management with Google Drive activity reports. Audit administrator actions. Generate customer and user usage reports.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png",
+			"humanURL": "https://developers.google.com/admin-sdk/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-apps-admin-sdk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Drive",
+			"x-api-slug": "google-drive",
+			"description": "Google Drive is a file storage and synchronization service operated by Google. It allows users to store files in the cloud, synchronize files across devices, and share files. Google Drive encompasses Google Docs, Sheets and Slides, an office suite that permits collaborative editing of documents, spreadsheets, presentations, drawings, forms, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png",
+			"humanURL": "https://developers.google.com/drive/",
+			"baseURL": "https://www.googleapis.com//drive/v3",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-drive/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Sheets",
+			"x-api-slug": "google-sheets",
+			"description": "Google Sheets is an online spreadsheet app that lets users create and format spreadsheets and simultaneously work with other people. Google Sheets isn&rsquo;t only for consumers: its used every day by businesses and schools to manage spreadsheet data. With the new Sheets API v4 and Sheets add-ons, that data can be accessed by code as well as users.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-sheets-icon.png",
+			"humanURL": "https://developers.google.com/sheets/",
+			"baseURL": "https:///",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-sheets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Slides",
+			"x-api-slug": "google-slides",
+			"description": "The Google Slides API lets you create and modify Google Slides presentations. Apps can integrate with the Google Slides API to create beautiful slide decks automatically from user- and system-provided data. For example, you could use customer details from a database and combine them with predesigned templates and selected configuration options to create finished presentations in a fraction of the time it would take to create them manually.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png",
+			"humanURL": "https://docs.google.com/presentation/",
+			"baseURL": "://slides.googleapis.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-slides/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DocumentDB",
+			"x-api-slug": "azure-documentdb",
+			"description": "Azure DocumentDB is a fully-managed NoSQL document database service that offers querying and transaction-processing over schema-free data, predictable and reliable performance, and rapid development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/documentdb/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/azure-documentdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SAP",
+			"x-api-slug": "sap",
+			"description": "Get software and technology solutions from SAP, the leader in business applications.  Run simple with the best in cloud, analytics, mobile and IT solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg",
+			"humanURL": "https://www.sap.com/index.html",
+			"baseURL": "https://sandbox.api.sap.com//translationhub/api/v1",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BC Laws",
+			"x-api-slug": "bc-laws",
+			"description": "BC Laws is an electronic library providing free public access to the laws of British Columbia. BC Laws is hosted by the Queen&rsquo;s Printer of British Columbia and published in partnership with the Ministry of Justice and the Law Clerk of the Legislative Assembly. BC Laws contains a comprehensive collection of BC legislation and related materials. It is available on the internet in two forms: First: The library is available as a web site in which users can browse and search the laws of British Columbia. Second: The library is available as a portal to legislation in raw XML1 data format, accessible via the BC Laws API2. This direct access to raw data is intended to enable third parties to build or add their own custom applications based on the structure of the data and all the associated search functionality inherent in that structure. The BC Laws website itself is an example of one such application.",
+			"image": "",
+			"humanURL": "http://bclaws.ca",
+			"baseURL": "https://www.bclaws.ca//civix",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ChainGenie",
+			"x-api-slug": "chaingenie",
+			"description": "ChainGenie provides a plug and play platform that helps you connect your existing (or create new) applications to DLTs for lodging and workflow management using a simple easy to use user interface. ChainGenie is a platform to create blockchain apps that provide speed-to-market for companies looking to launch faster, rather than reinvent the wheel. Write your applications to run on popular Blockchain networks like Ethereum, Bitcoin Blockchain etc with great ease when you require to validate credentials or make your existing traditional applications use the power of DLT and blockchain overnight!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28902-api-chaingenie-com.jpg",
+			"humanURL": "http://chaingenie.com",
+			"baseURL": "https://api.chaingenie.com//api/v1",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/chaingenie/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Documents",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Documents",
+	"include": [
+		{
+			"name": "AT&T Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "DocuSign",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docusign/apis.yaml"
+		},
+		{
+			"name": "Dropbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dropbox/apis.yaml"
+		},
+		{
+			"name": "ABBYY",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/abbyy/apis.yaml"
+		},
+		{
+			"name": "ConvertAPI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/convertapi/apis.yaml"
+		},
+		{
+			"name": "pdfcrowd",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pdfcrowd/apis.yaml"
+		},
+		{
+			"name": "AssureSign",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/assuresign/apis.yaml"
+		},
+		{
+			"name": "DocRaptor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docraptor/apis.yaml"
+		},
+		{
+			"name": "Data.Gov.au",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/data-gov-au/apis.yaml"
+		},
+		{
+			"name": "GroupDocs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/groupdocs/apis.yaml"
+		},
+		{
+			"name": "Gumroad",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/gumroad/apis.yaml"
+		},
+		{
+			"name": "SpringCM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/springcm/apis.yaml"
+		},
+		{
+			"name": "Drillster",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/drillster/apis.yaml"
+		},
+		{
+			"name": "CORE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/core/apis.yaml"
+		},
+		{
+			"name": "Rev",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/rev/apis.yaml"
+		},
+		{
+			"name": "Aspose",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aspose/apis.yaml"
+		},
+		{
+			"name": "PDFUnicorn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pdfunicorn/apis.yaml"
+		},
+		{
+			"name": "Quip",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/quip/apis.yaml"
+		},
+		{
+			"name": "Datumbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/datumbox/apis.yaml"
+		},
+		{
+			"name": "PandaDoc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/pandadoc/apis.yaml"
+		},
+		{
+			"name": "MotaWord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/motaword/apis.yaml"
+		},
+		{
+			"name": "Actual Reports",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/actual-reports/apis.yaml"
+		},
+		{
+			"name": "Regulations.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/regulations-gov/apis.yaml"
+		},
+		{
+			"name": "Microsoft Office 365",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/microsoft-office-365/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-ec2-systems-manager/apis.yaml"
+		},
+		{
+			"name": "AWS CloudSearch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-cloudsearch/apis.yaml"
+		},
+		{
+			"name": "AWS Elasticsearch Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-elasticsearch-service/apis.yaml"
+		},
+		{
+			"name": "AWS WorkDocs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/aws-workdocs/apis.yaml"
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-apps-admin-sdk/apis.yaml"
+		},
+		{
+			"name": "Google Drive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-drive/apis.yaml"
+		},
+		{
+			"name": "Google Sheets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-sheets/apis.yaml"
+		},
+		{
+			"name": "Google Slides",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/google-slides/apis.yaml"
+		},
+		{
+			"name": "Azure DocumentDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/azure-documentdb/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "SAP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/sap/apis.yaml"
+		},
+		{
+			"name": "BC Laws",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/bc-laws/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "ChainGenie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/chaingenie/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/logicbroker/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/documents/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}
